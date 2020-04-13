@@ -1,0 +1,21 @@
+{
+    "name": "Ansible4",
+    "description": "Ansible is the simplest way to automate apps and IT infrastructure. Application Deployment + Configuration Management + Continuous Delivery.",
+    "tags": [
+        "provisioning",
+        "configuration-management",
+        "hashicorp",
+        "automation",
+        "python"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac"
+    ],
+    "license": "GPLv3",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/ansible/ansible",
+    "url": "https://www.ansible.com/"
+}

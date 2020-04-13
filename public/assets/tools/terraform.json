@@ -1,0 +1,22 @@
+{
+    "name": "Terraform",
+    "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure.",
+    "tags": [
+        "provisioning",
+        "orchestration",
+        "hashicorp",
+        "automation",
+        "golang"
+    ],
+    "operating_systems": [
+        "windows",
+        "linux",
+        "mac"
+    ],
+    "license": "MPL 2.0",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/hashicorp/terraform",
+    "url": "https://www.terraform.io/"
+}
