@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      html {
+        --color-black: #0b0c10;
+        --color-grey: #1f2833;
+        --color-light-grey: #c5c6c7;
+        --color-light-cyan: #66fcf1;
+        --color-dark-cyan: #45a29e;
+      }
+      html,
+      body,
+      .footer,
+      strong {
+        background-color: var(--color-grey);
+        color: white;
+      }
+      a:hover {
+        color: var(--color-light-cyan);
+      }
+    </style>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
   <footer class="footer">
     <div class="content has-text-centered">
-        <p>
-            &copy; <strong>Cloud Native Security Tools</strong> curated and maintained by <a href="https://madhuakula.com" target="_blank">Madhu Akula</a>
-        </p>
+      <p>
+        &copy; <strong>Cloud Native Security Tools</strong> curated and
+        maintained by
+        <a href="https://madhuakula.com" target="_blank">Madhu Akula</a>
+      </p>
     </div>
-</footer>
+  </footer>
 </html>
