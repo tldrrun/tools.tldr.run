@@ -1,24 +1,15 @@
-# cncftools
+# Cloud Native Security Tools
 
-## Project setup
+[https://tools.cloudnativesecurity.info](https://tools.cloudnativesecurity.info)
+
+## Development & Setup
+
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Thanks & Acknowledgements
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [Varun A P](https://github.com/apvarun)
+* [Madhu Akula](https://github.com/madhuakula)
