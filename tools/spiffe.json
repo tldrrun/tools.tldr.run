@@ -1,0 +1,19 @@
+{
+    "name": "SPIFFE",
+    "description": "SPIFFE, the Secure Production Identity, Inspired by the production infrastructure of Google and others, SPIFFE is a set of open-source standards for securely identifying software systems in dynamic and heterogeneous environments.",
+    "tags": [
+        "Modern Security",
+        "Web Security",
+        "Security Standards",
+        "Identity and Access Management"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/spiffe/spiffe",
+    "url": "https://spiffe.io/"
+}

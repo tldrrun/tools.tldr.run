@@ -1,0 +1,22 @@
+{
+    "name": "Cartography",
+    "description": "Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.",
+    "tags": [
+        "Cloud Security",
+        "AWS",
+        "GCP",
+        "Inventory",
+        "Neo4j"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/lyft/cartography",
+    "url": "https://github.com/lyft/cartography"
+}

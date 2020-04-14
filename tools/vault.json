@@ -1,0 +1,21 @@
+{
+    "name": "Vault",
+    "description": "Vault is a tool for securely accessing secrets. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, and more. Vault provides a unified interface to any secret, while providing tight access control and recording a detailed audit log.",
+    "tags": [
+        "Secrets Management",
+        "Security",
+        "Secrets Storage",
+        "golang"
+    ],
+    "operating_systems": [
+        "windows",
+        "linux",
+        "mac"
+    ],
+    "license": "MPL-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/hashicorp/vault",
+    "url": "https://www.vaultproject.io"
+}

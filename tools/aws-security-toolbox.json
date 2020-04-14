@@ -1,0 +1,19 @@
+{
+    "name": "AWS Security Toolbox",
+    "description": "This toolbox will bring to you all necessary apps and tooling as a simple portable and preinstalled Docker container for SecOps on AWS, especially for auditing and assessments purpose.",
+    "tags": [
+        "Cloud Security",
+        "AWS",
+        "Security ToolBox"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+"github_url": "https://github.com/z0ph/aws-security-toolbox",
+    "url": "https://github.com/z0ph/aws-security-toolbox"
+}

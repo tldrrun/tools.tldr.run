@@ -1,0 +1,21 @@
+{
+    "name": "TrailScraper",
+    "description": "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies.",
+    "tags": [
+        "Cloud Security",
+        "AWS",
+        "IAM",
+        "CloudTrail"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/flosell/trailscraper",
+    "url": "https://github.com/flosell/trailscraper"
+}

@@ -30,22 +30,10 @@ new Vue ({
       url: url
     }).then(function(response){
       // console.log(response);
-      self.apps.files = response.data;
-      self.loadfiles()
+      self.apps.data = response.data;
     })
   },
   methods: {
-    loadfiles(){
-      let self = this
-      this.apps.files.forEach(filename => {
-        axios({
-          methods: 'get',
-          url: "/assets/tools/" + filename
-        }).then(function(response){
-          self.apps.data = self.apps.data.concat(response.data)
-        })
-      });
-    }
   }
   
 }).$mount('#app')

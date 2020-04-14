@@ -1,0 +1,21 @@
+{
+    "name": "OPA",
+    "description": "The Open Policy Agent (OPA) is an open source, general-purpose policy engine that enables unified, context-aware policy enforcement across the entire stack.",
+    "tags": [
+        "Policy Engine",
+        "Cloud Native",
+        "Security Audit",
+        "Security Controls"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/spiffe/spiffe",
+    "url": "https://github.com/open-policy-agent/opa"
+}

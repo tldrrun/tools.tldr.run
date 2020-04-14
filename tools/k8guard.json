@@ -1,0 +1,19 @@
+{
+    "name": "K8Guard",
+    "description": "K8Guard is an auditing system for kubernetes clusters. It monitors different entities on your cluster for possible violations.",
+    "tags": [
+        "Security Auditing",
+        "Security Monitoring",
+        "Kubernetes Security",
+        "Continuous Security"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/aquasecurity/kube-bench",
+    "url": "https://k8guard.github.io/"
+}

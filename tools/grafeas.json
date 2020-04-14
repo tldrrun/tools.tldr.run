@@ -1,0 +1,21 @@
+{
+    "name": "Grafeas",
+    "description": "Grafeas (scribe in Greek) is an open-source artifact metadata API that provides a uniform way to audit and govern your software supply chain. Grafeas defines an API spec for managing metadata about software resources, such as container images, Virtual Machine (VM) images, JAR files, and scripts. You can use Grafeas to define and aggregate information about your project's components. Grafeas provides organizations with a central source of truth for tracking and enforcing policies across an ever growing set of software development teams and pipelines. Build, auditing, and compliance tools can use the Grafeas API to store, query, and retrieve comprehensive metadata on software components of all kinds.",
+    "tags": [
+        "Inventory",
+        "Security Scanning",
+        "Supply Chain Security",
+        "Security Auditing"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/grafeas/grafeas",
+    "url": "https://grafeas.io/"
+}

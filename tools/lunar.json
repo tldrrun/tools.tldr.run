@@ -1,0 +1,19 @@
+{
+    "name": "LUNAR",
+    "description": "This scripts generates a scored audit report of a Unix host's security. It is based on the CIS and other frameworks. Where possible there are references to the CIS and other benchmarks in the code documentation.",
+    "tags": [
+        "Security Auditing",
+        "UNIX Security",
+        "Shell Script"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac"
+    ],
+    "license": "",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/lateralblast/lunar",
+    "url": "https://github.com/lateralblast/lunar"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "KUBESEC.IO",
+    "description": "Security risk analysis for Kubernetes resources",
+    "tags": [
+        "Container Security",
+        "CIS Benchmarks",
+        "Security Scanning",
+        "Kubernetes Security",
+        "Risk Analysis"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/controlplaneio/kubesec",
+    "url": "https://kubesec.io/"
+}

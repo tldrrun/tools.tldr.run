@@ -1,0 +1,22 @@
+{
+    "name": "PMapper",
+    "description": "Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) in an AWS account.",
+    "tags": [
+        "Cloud Security",
+        "Risk Analysis",
+        "AWS",
+        "IAM",
+        "Python"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "AGPL-3",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/nccgroup/PMapper",
+    "url": "https://github.com/nccgroup/PMapper"
+}

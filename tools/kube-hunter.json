@@ -1,0 +1,20 @@
+{
+    "name": "kube-hunter",
+    "description": "kube-hunter hunts for security weaknesses in Kubernetes clusters. The tool was developed to increase awareness and visibility for security issues in Kubernetes environments. You should NOT run kube-hunter on a Kubernetes cluster that you don't own!",
+    "tags": [
+        "Container Security",
+        "CIS Benchmarks",
+        "Security Scanning",
+        "Kubernetes Security",
+        "Penetration Testing"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/aquasecurity/kube-hunter",
+    "url": "https://kube-hunter.aquasec.com/"
+}

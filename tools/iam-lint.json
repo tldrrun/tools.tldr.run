@@ -1,0 +1,20 @@
+{
+    "name": "iam-lint",
+    "description": "Github action for linting AWS IAM policy documents.",
+    "tags": [
+        "Cloud Security",
+        "Continuous Security",
+        "AWS",
+        "IAM",
+        "Automation"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+"github_url": "https://github.com/xen0l/iam-lint",
+    "url": "https://github.com/xen0l/iam-lint"
+}

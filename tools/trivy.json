@@ -1,0 +1,22 @@
+{
+    "name": "Trivy",
+    "description": "Trivy (tri pronounced like trigger, vy pronounced like envy) is a simple and comprehensive vulnerability scanner for containers. A software vulnerability is a glitch, flaw, or weakness present in the software or in an Operating System. Trivy detects vulnerabilities of OS packages (Alpine, RHEL, CentOS, etc.) and application dependencies (Bundler, Composer, npm, yarn etc.). Trivy is easy to use. Just install the binary and you're ready to scan. All you need to do for scanning is to specify an image name of the container.",
+    "tags": [
+        "Container Security",
+        "Docker",
+        "Security Scanning",
+        "CVE",
+        "Dependency Scanning"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/aquasecurity/trivy",
+    "url": "https://github.com/aquasecurity/trivy"
+}

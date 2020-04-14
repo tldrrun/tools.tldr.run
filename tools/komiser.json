@@ -1,0 +1,24 @@
+{
+    "name": "Komiser",
+    "description": " Cloud Environment Inspector. Stay under budget by uncovering hidden costs, monitoring increases in spend, and making impactful changes based on custom recommendations.",
+    "tags": [
+        "Cloud Security",
+        "Security Analysis",
+        "AWS",
+        "GCP",
+        "Governance"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource",
+        "free",
+        "commercial"
+    ],
+"github_url": "https://github.com/mlabouardy/komiser",
+    "url": "https://komiser.io/"
+}

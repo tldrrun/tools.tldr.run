@@ -1,0 +1,21 @@
+{
+    "name": "CloudSploit Scans",
+    "description": "CloudSploit scans is an open-source project designed to allow detection of security risks in cloud infrastructure accounts. These scripts are designed to return a series of potential misconfigurations and security risks.",
+    "tags": [
+        "Cloud Security",
+        "Security Auditing",
+        "AWS",
+        "Security Configuration"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "GPL-3",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/cloudsploit/scans",
+    "url": "https://github.com/cloudsploit/scans"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Zeus",
+    "description": "Zeus is a powerful tool for AWS EC2 / S3 / CloudTrail / CloudWatch / KMS best hardening practices. It checks security settings according to the profiles the user creates and changes them to recommended settings based on the CIS AWS Benchmark source at request of the user.",
+    "tags": [
+        "Cloud Security",
+        "Security Auditing",
+        "AWS",
+        "CIS Benchmarks",
+        "Security Hardening"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+"github_url": "https://github.com/DenizParlak/Zeus",
+    "url": "https://github.com/DenizParlak/Zeus"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "aws-security-benchmark",
+    "description": "Open source demos, concept and guidance related to the AWS CIS Foundation framework.",
+    "tags": [
+        "Cloud Security",
+        "Security Audit",
+        "AWS",
+        "CIS",
+        "Python"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/awslabs/aws-security-benchmark",
+    "url": "https://github.com/awslabs/aws-security-benchmark"
+}

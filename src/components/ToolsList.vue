@@ -122,7 +122,7 @@
               </span>
             </div>
             <p class="card-header-title is-centered" style="overflow: auto;">
-              {{ tool.name }}
+              <a v-bind:href=tool.url target="_blank">{{ tool.name }}</a>
             </p>
             <div class="card-header-icon" aria-label="more options">
               <span

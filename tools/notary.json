@@ -1,0 +1,21 @@
+{
+    "name": "Notary",
+    "description": "Notary aims to make the internet more secure by making it easy for people to publish and verify content. We often rely on TLS to secure our communications with a web server, which is inherently flawed, as any compromise of the server enables malicious content to be substituted for the legitimate content.",
+    "tags": [
+        "Container Security",
+        "Image Signing",
+        "Security Audit",
+        "Trust & Privacy"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/theupdateframework/notary",
+    "url": "https://github.com/theupdateframework/notary"
+}

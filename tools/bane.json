@@ -1,0 +1,21 @@
+{
+    "name": "bane",
+    "description": "AppArmor profile generator for docker containers. Basically a better AppArmor profile, than creating one by hand, because who would ever do that.",
+    "tags": [
+        "Container Security",
+        "Security Profiler",
+        "AppArmor",
+        "Security Hardening"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/genuinetools/bane",
+    "url": "https://github.com/genuinetools/bane"
+}

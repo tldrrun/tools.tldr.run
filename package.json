@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preserve": "cat tools/*.json | jq -s 'flatten' > public/assets/main.json",
     "serve": "vue-cli-service serve",
+    "prebuild": "cat tools/*.json | jq -s 'flatten' > public/assets/main.json",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

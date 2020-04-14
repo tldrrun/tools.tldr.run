@@ -1,0 +1,22 @@
+{
+    "name": "aws-security-viz",
+    "description": "Need a quick way to visualize your current aws/amazon ec2 security group configuration? aws-security-viz does just that based on the EC2 security group ingress configuration.",
+    "tags": [
+        "Cloud Security",
+        "Security Visualization",
+        "AWS",
+        "Inventory",
+        "Ruby"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+"github_url": "https://github.com/anaynayak/aws-security-viz",
+    "url": "https://github.com/anaynayak/aws-security-viz"
+}

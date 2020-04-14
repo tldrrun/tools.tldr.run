@@ -1,0 +1,21 @@
+{
+    "name": "ScoutSuite",
+    "description": "Multi-Cloud Security auditing tool for AWS Google Cloud and Azure environments.",
+    "tags": [
+        "Cloud Security",
+        "Security Auditing",
+        "Python",
+        "AWS"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "GPL-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/nccgroup/ScoutSuite",
+    "url": "https://github.com/nccgroup/ScoutSuite"
+}

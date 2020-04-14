@@ -1,11 +1,1052 @@
 [
-    "ansible.json",
-    "ansible1.json",
-    "ansible2.json",
-    "ansible3.json",
-    "ansible4.json",
-    "ansible5.json",
-    "ansible6.json",
-    "docker.json",
-    "terraform.json"
+  {
+    "name": "Ansible",
+    "description": "Ansible is the simplest way to automate apps and IT infrastructure. Application Deployment + Configuration Management + Continuous Delivery.",
+    "tags": [
+      "provisioning",
+      "configuration-management",
+      "hashicorp",
+      "automation",
+      "python"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac"
+    ],
+    "license": "GPL-3",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/ansible/ansible",
+    "url": "https://www.ansible.com/"
+  },
+  {
+    "name": "Antiope",
+    "description": "Antiope (PRONO An-Tie-Oh-Pee) is intended to be an open sourced framework for managing resources across hundreds of AWS Accounts. From a trusted Security Account, Antiope will leverage Cross Account Assume Roles to gather up resource data and store them in an inventory bucket. This bucket can then be index by ELK or your SEIM of choice to provide easy searching of resources across hundreds of AWS accounts.",
+    "tags": [
+      "Cloud Security",
+      "Compliance",
+      "AWS",
+      "Inventory"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/turnerlabs/antiope",
+    "url": "https://github.com/turnerlabs/antiope"
+  },
+  {
+    "name": "audit2rbac",
+    "description": "audit2rbac takes a Kubernetes audit log and username as input, and generates RBAC role and binding objects that cover all the API requests made by that user.",
+    "tags": [
+      "IAM & RBAC",
+      "Security Scanning",
+      "Kubernetes Security",
+      "Security Auditing",
+      "golang"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/liggitt/audit2rbac",
+    "url": "https://github.com/liggitt/audit2rbac"
+  },
+  {
+    "name": "AWS Lambda - IAM Access Key Disabler",
+    "description": "The AWS Key disabler is a Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.",
+    "tags": [
+      "Cloud Security",
+      "Security Auditing",
+      "AWS",
+      "Lambda",
+      "IAM"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac"
+    ],
+    "license": "ISC",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/te-papa/aws-key-disabler",
+    "url": "https://github.com/te-papa/aws-key-disabler"
+  },
+  {
+    "name": "aws-security-benchmark",
+    "description": "Open source demos, concept and guidance related to the AWS CIS Foundation framework.",
+    "tags": [
+      "Cloud Security",
+      "Security Audit",
+      "AWS",
+      "CIS",
+      "Python"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/awslabs/aws-security-benchmark",
+    "url": "https://github.com/awslabs/aws-security-benchmark"
+  },
+  {
+    "name": "AWS Security Toolbox",
+    "description": "This toolbox will bring to you all necessary apps and tooling as a simple portable and preinstalled Docker container for SecOps on AWS, especially for auditing and assessments purpose.",
+    "tags": [
+      "Cloud Security",
+      "AWS",
+      "Security ToolBox"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/z0ph/aws-security-toolbox",
+    "url": "https://github.com/z0ph/aws-security-toolbox"
+  },
+  {
+    "name": "aws-security-viz",
+    "description": "Need a quick way to visualize your current aws/amazon ec2 security group configuration? aws-security-viz does just that based on the EC2 security group ingress configuration.",
+    "tags": [
+      "Cloud Security",
+      "Security Visualization",
+      "AWS",
+      "Inventory",
+      "Ruby"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/anaynayak/aws-security-viz",
+    "url": "https://github.com/anaynayak/aws-security-viz"
+  },
+  {
+    "name": "bane",
+    "description": "AppArmor profile generator for docker containers. Basically a better AppArmor profile, than creating one by hand, because who would ever do that.",
+    "tags": [
+      "Container Security",
+      "Security Profiler",
+      "AppArmor",
+      "Security Hardening"
+    ],
+    "operating_systems": [
+      "linux",
+      "windows",
+      "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/genuinetools/bane",
+    "url": "https://github.com/genuinetools/bane"
+  },
+  {
+    "name": "Cartography",
+    "description": "Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.",
+    "tags": [
+      "Cloud Security",
+      "AWS",
+      "GCP",
+      "Inventory",
+      "Neo4j"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/lyft/cartography",
+    "url": "https://github.com/lyft/cartography"
+  },
+  {
+    "name": "cert-manager",
+    "description": "Automate certificate management in cloud native environments. cert-manager builds on top of Kubernetes, introducing certificate authorities and certificates as first-class resource types in the Kubernetes API. This makes it possible to provide 'certificates as a service' to developers working within your Kubernetes cluster.",
+    "tags": [
+      "TLS Certificates",
+      "Lets Encrypt",
+      "Kubernetes Security",
+      "Certificate Management",
+      "Automation"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/jetstack/cert-manager/",
+    "url": "https://cert-manager.io/"
+  },
+  {
+    "name": "Clair",
+    "description": "Clair is an open source project for the static analysis of vulnerabilities in application containers (currently including apps and docker).",
+    "tags": [
+      "Container Security",
+      "Docker",
+      "Security Scanning",
+      "CVE"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/quay/clair",
+    "url": "https://github.com/quay/clair"
+  },
+  {
+    "name": "CloudMapper",
+    "description": "CloudMapper helps you analyze your Amazon Web Services (AWS) environments. The original purpose was to generate network diagrams and display them in your browser. It now contains much more functionality, including auditing for security issues.",
+    "tags": [
+      "Cloud Security",
+      "Security Audit",
+      "AWS",
+      "Security Analysis",
+      "Python"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "BSD-3-Clause",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/duo-labs/cloudmapper",
+    "url": "https://github.com/duo-labs/cloudmapper"
+  },
+  {
+    "name": "CloudSploit Scans",
+    "description": "CloudSploit scans is an open-source project designed to allow detection of security risks in cloud infrastructure accounts. These scripts are designed to return a series of potential misconfigurations and security risks.",
+    "tags": [
+      "Cloud Security",
+      "Security Auditing",
+      "AWS",
+      "Security Configuration"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "GPL-3",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/cloudsploit/scans",
+    "url": "https://github.com/cloudsploit/scans"
+  },
+  {
+    "name": "Cloud Security Suite",
+    "description": "Cloud Security Suite (cs-suite) - One stop tool for auditing the security posture of AWS/GCP/Azure infrastructure.",
+    "tags": [
+      "Cloud Security",
+      "Security Auditing",
+      "AWS",
+      "Azure",
+      "Python"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "GPL-3",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/SecurityFTW/cs-suite",
+    "url": "https://github.com/SecurityFTW/cs-suite"
+  },
+  {
+    "name": "Detecting Credential Compromise in AWS",
+    "description": "Detecting Credential Compromise in AWS based on CloudTrail logs in AWS.",
+    "tags": [
+      "Cloud Security",
+      "Continuous Security",
+      "AWS",
+      "Security Detection"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/Netflix-Skunkworks/aws-credential-compromise-detection",
+    "url": "https://github.com/Netflix-Skunkworks/aws-credential-compromise-detection"
+  },
+  {
+    "name": "Docker Bench for Security",
+    "description": "The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production. The tests are all automated, and are inspired by the CIS Docker Benchmark v1.2.0.",
+    "tags": [
+      "Container Security",
+      "CIS Benchmarks",
+      "Security Scanning",
+      "Docker Security",
+      "Security Auditing"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/docker/docker-bench-security",
+    "url": "https://github.com/docker/docker-bench-security"
+  },
+  {
+    "name": "Docker",
+    "description": "Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.",
+    "tags": [
+      "containers",
+      "devops",
+      "automation",
+      "golang"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource",
+      "free",
+      "commercial"
+    ],
+    "github_url": "https://github.com/docker/docker-ce",
+    "url": "https://www.docker.com/"
+  },
+  {
+    "name": "Falco",
+    "description": "Falco, the open source cloud-native runtime security project, is the defacto Kubernetes threat detection engine. Falco detects unexpected application behavior and alerts on threats at runtime.",
+    "tags": [
+      "Container Security",
+      "Docker",
+      "Runtime Security",
+      "Security Detection",
+      "Security Monitoring"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/falcosecurity/falco",
+    "url": "https://falco.org"
+  },
+  {
+    "name": "Grafeas",
+    "description": "Grafeas (scribe in Greek) is an open-source artifact metadata API that provides a uniform way to audit and govern your software supply chain. Grafeas defines an API spec for managing metadata about software resources, such as container images, Virtual Machine (VM) images, JAR files, and scripts. You can use Grafeas to define and aggregate information about your project's components. Grafeas provides organizations with a central source of truth for tracking and enforcing policies across an ever growing set of software development teams and pipelines. Build, auditing, and compliance tools can use the Grafeas API to store, query, and retrieve comprehensive metadata on software components of all kinds.",
+    "tags": [
+      "Inventory",
+      "Security Scanning",
+      "Supply Chain Security",
+      "Security Auditing"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/grafeas/grafeas",
+    "url": "https://grafeas.io/"
+  },
+  {
+    "name": "gVisor",
+    "description": "A container sandbox runtime focused on security, efficiency, and ease of use.gVisor is an open-source, OCI-compatible sandbox runtime that provides a virtualized container environment. It runs containers with a new user-space kernel, delivering a low overhead container security solution for high-density applications.",
+    "tags": [
+      "Container Security",
+      "Runtime Security",
+      "Sandbox",
+      "System Security"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/google/gvisor",
+    "url": "https://gvisor.dev/"
+  },
+  {
+    "name": "iam-lint",
+    "description": "Github action for linting AWS IAM policy documents.",
+    "tags": [
+      "Cloud Security",
+      "Continuous Security",
+      "AWS",
+      "IAM",
+      "Automation"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/xen0l/iam-lint",
+    "url": "https://github.com/xen0l/iam-lint"
+  },
+  {
+    "name": "in-toto",
+    "description": "A software supply chain is the series of steps performed when writing, testing, packaging, and distributing software. A typical software supply chain is composed of multiple steps chained together that transform (e.g., compilation) or verify the state (e.g., linting) of the project in order to drive it to a final product.",
+    "tags": [
+      "Supply Chain Security",
+      "Security Automation",
+      "Security Scanning",
+      "Source Code Analysis"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/in-toto/in-toto/",
+    "url": "https://in-toto.io/"
+  },
+  {
+    "name": "K8Guard",
+    "description": "K8Guard is an auditing system for kubernetes clusters. It monitors different entities on your cluster for possible violations.",
+    "tags": [
+      "Security Auditing",
+      "Security Monitoring",
+      "Kubernetes Security",
+      "Continuous Security"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/aquasecurity/kube-bench",
+    "url": "https://k8guard.github.io/"
+  },
+  {
+    "name": "Komiser",
+    "description": " Cloud Environment Inspector. Stay under budget by uncovering hidden costs, monitoring increases in spend, and making impactful changes based on custom recommendations.",
+    "tags": [
+      "Cloud Security",
+      "Security Analysis",
+      "AWS",
+      "GCP",
+      "Governance"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource",
+      "free",
+      "commercial"
+    ],
+    "github_url": "https://github.com/mlabouardy/komiser",
+    "url": "https://komiser.io/"
+  },
+  {
+    "name": "kube-bench",
+    "description": "kube-bench is a Go application that checks whether Kubernetes is deployed securely by running the checks documented in the CIS Kubernetes Benchmark.",
+    "tags": [
+      "Container Security",
+      "CIS Benchmarks",
+      "Security Scanning",
+      "Kubernetes Security",
+      "Security Auditing"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/aquasecurity/kube-bench",
+    "url": "https://github.com/aquasecurity/kube-bench"
+  },
+  {
+    "name": "kube-hunter",
+    "description": "kube-hunter hunts for security weaknesses in Kubernetes clusters. The tool was developed to increase awareness and visibility for security issues in Kubernetes environments. You should NOT run kube-hunter on a Kubernetes cluster that you don't own!",
+    "tags": [
+      "Container Security",
+      "CIS Benchmarks",
+      "Security Scanning",
+      "Kubernetes Security",
+      "Penetration Testing"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/aquasecurity/kube-hunter",
+    "url": "https://kube-hunter.aquasec.com/"
+  },
+  {
+    "name": "kubeaudit",
+    "description": "kubeaudit is a command line tool to audit Kubernetes clusters for various different security concerns: run the container as a non-root user, use a read only root filesystem, drop scary capabilities, don't add new ones, don't run privileged, ... You get the gist of it and more on that later. Just know:",
+    "tags": [
+      "Container Security",
+      "Security Hardening",
+      "Security Scanning",
+      "Kubernetes Security",
+      "Security Auditing"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/Shopify/kubeaudit",
+    "url": "https://github.com/Shopify/kubeaudit"
+  },
+  {
+    "name": "KUBESEC.IO",
+    "description": "Security risk analysis for Kubernetes resources",
+    "tags": [
+      "Container Security",
+      "CIS Benchmarks",
+      "Security Scanning",
+      "Kubernetes Security",
+      "Risk Analysis"
+    ],
+    "operating_systems": [
+      "linux",
+      "windows",
+      "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/controlplaneio/kubesec",
+    "url": "https://kubesec.io/"
+  },
+  {
+    "name": "LambdaGuard",
+    "description": "LambdaGuard is an AWS Lambda auditing tool designed to create asset visibility and provide actionable results. It provides a meaningful overview in terms of statistical analysis, AWS service dependencies and configuration checks from the security perspective.",
+    "tags": [
+      "Cloud Security",
+      "Serverless",
+      "AWS",
+      "Lambda",
+      "Inventory"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/Skyscanner/LambdaGuard",
+    "url": "https://github.com/Skyscanner/LambdaGuard"
+  },
+  {
+    "name": "LUNAR",
+    "description": "This scripts generates a scored audit report of a Unix host's security. It is based on the CIS and other frameworks. Where possible there are references to the CIS and other benchmarks in the code documentation.",
+    "tags": [
+      "Security Auditing",
+      "UNIX Security",
+      "Shell Script"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac"
+    ],
+    "license": "",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/lateralblast/lunar",
+    "url": "https://github.com/lateralblast/lunar"
+  },
+  {
+    "name": "MKIT",
+    "description": "MKIT is a Managed Kubernetes Inspection Tool that validates several common security-related configuration settings of managed Kubernetes cluster objects and the workloads/resources running inside the cluster.",
+    "tags": [
+      "Cloud Security",
+      "Security Scanning",
+      "Kubernetes Security",
+      "Risk Analysis"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/darkbitio/mkit",
+    "url": "https://github.com/darkbitio/mkit"
+  },
+  {
+    "name": "nccgroup-aws-inventory",
+    "description": "This is a tool that tries to discover all AWS resources created in an account.",
+    "tags": [
+      "Cloud Security",
+      "AWS",
+      "Inventory",
+      "Python"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/nccgroup/aws-inventory",
+    "url": "https://github.com/nccgroup/aws-inventory"
+  },
+  {
+    "name": "Notary",
+    "description": "Notary aims to make the internet more secure by making it easy for people to publish and verify content. We often rely on TLS to secure our communications with a web server, which is inherently flawed, as any compromise of the server enables malicious content to be substituted for the legitimate content.",
+    "tags": [
+      "Container Security",
+      "Image Signing",
+      "Security Audit",
+      "Trust & Privacy"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/theupdateframework/notary",
+    "url": "https://github.com/theupdateframework/notary"
+  },
+  {
+    "name": "OPA",
+    "description": "The Open Policy Agent (OPA) is an open source, general-purpose policy engine that enables unified, context-aware policy enforcement across the entire stack.",
+    "tags": [
+      "Policy Engine",
+      "Cloud Native",
+      "Security Audit",
+      "Security Controls"
+    ],
+    "operating_systems": [
+      "linux",
+      "windows",
+      "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/spiffe/spiffe",
+    "url": "https://github.com/open-policy-agent/opa"
+  },
+  {
+    "name": "PacBot",
+    "description": "Policy as Code Bot (PacBot) is a platform for continuous compliance monitoring, compliance reporting and security automation for the cloud.",
+    "tags": [
+      "Cloud Security",
+      "Security Auditing",
+      "AWS",
+      "Compliance",
+      "Continuous Security"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/tmobile/pacbot",
+    "url": "https://tmobile.github.io/pacbot"
+  },
+  {
+    "name": "Perimeterator",
+    "description": "Perimeterator is a small project intended to allow for continuous auditing of internet facing AWS services. It can be quickly deployed into AWS and will periodically enumerate internet-facing IP addresses for a number of commonly misconfigured AWS resources.",
+    "tags": [
+      "Cloud Security",
+      "Continuous Security",
+      "AWS",
+      "Security Detection"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/darkarnium/perimeterator",
+    "url": "https://github.com/darkarnium/perimeterator"
+  },
+  {
+    "name": "PMapper",
+    "description": "Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) in an AWS account.",
+    "tags": [
+      "Cloud Security",
+      "Risk Analysis",
+      "AWS",
+      "IAM",
+      "Python"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "AGPL-3",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/nccgroup/PMapper",
+    "url": "https://github.com/nccgroup/PMapper"
+  },
+  {
+    "name": "Policy Sentry",
+    "description": "IAM Least Privilege Policy Generator and analysis database.",
+    "tags": [
+      "Cloud Security",
+      "Policy Generator",
+      "AWS",
+      "IAM",
+      "Python"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/salesforce/policy_sentry",
+    "url": "https://github.com/salesforce/policy_sentry"
+  },
+  {
+    "name": "Prowler",
+    "description": "CIS benchmarks and additional checks for security best practices in AWS",
+    "tags": [
+      "Cloud Security",
+      "Security Auditing",
+      "AWS",
+      "CIS Benchmarks",
+      "Bash"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac"
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/toniblyx/prowler",
+    "url": "https://github.com/toniblyx/prowler"
+  },
+  {
+    "name": "RBAC Manager",
+    "description": "RBAC Manager was designed to simplify authorization in Kubernetes. This is an operator that supports declarative configuration for RBAC with new custom resources. Instead of managing role bindings or service accounts directly, you can specify a desired state and RBAC Manager will make the necessary changes to achieve that state.",
+    "tags": [
+      "IAM",
+      "RBAC",
+      "Kubernetes Security",
+      "Security Auditing",
+      "golang"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/FairwindsOps/rbac-manager",
+    "url": "https://github.com/FairwindsOps/rbac-manager"
+  },
+  {
+    "name": "ScoutSuite",
+    "description": "Multi-Cloud Security auditing tool for AWS Google Cloud and Azure environments.",
+    "tags": [
+      "Cloud Security",
+      "Security Auditing",
+      "Python",
+      "AWS"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "GPL-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/nccgroup/ScoutSuite",
+    "url": "https://github.com/nccgroup/ScoutSuite"
+  },
+  {
+    "name": "SkyArk",
+    "description": "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities in Azure and AWS.",
+    "tags": [
+      "Cloud Security",
+      "AWS",
+      "Azure",
+      "Security Scanning",
+      "PowerShell"
+    ],
+    "operating_systems": [
+      "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/cyberark/SkyArk",
+    "url": "https://github.com/cyberark/SkyArk"
+  },
+  {
+    "name": "SPIFFE",
+    "description": "SPIFFE, the Secure Production Identity, Inspired by the production infrastructure of Google and others, SPIFFE is a set of open-source standards for securely identifying software systems in dynamic and heterogeneous environments.",
+    "tags": [
+      "Modern Security",
+      "Web Security",
+      "Security Standards",
+      "Identity and Access Management"
+    ],
+    "operating_systems": [
+      "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/spiffe/spiffe",
+    "url": "https://spiffe.io/"
+  },
+  {
+    "name": "terraform-aws-secure-baseline",
+    "description": "Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.",
+    "tags": [
+      "Cloud Security",
+      "Security Baseline",
+      "AWS",
+      "CIS",
+      "Terraform"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/nozaq/terraform-aws-secure-baseline",
+    "url": "https://github.com/nozaq/terraform-aws-secure-baseline"
+  },
+  {
+    "name": "Terraform",
+    "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure.",
+    "tags": [
+      "provisioning",
+      "orchestration",
+      "hashicorp",
+      "automation",
+      "golang"
+    ],
+    "operating_systems": [
+      "windows",
+      "linux",
+      "mac"
+    ],
+    "license": "MPL-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/hashicorp/terraform",
+    "url": "https://www.terraform.io/"
+  },
+  {
+    "name": "AWS TrailBlazer",
+    "description": "TrailBlazer is a tool written to determine what AWS API calls are logged by CloudTrail and what they are logged as. You can also use TrailBlazer as an attack simulation framework.",
+    "tags": [
+      "Cloud Security",
+      "AWS",
+      "Monitoring & Logging",
+      "Python"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/willbengtson/trailblazer-aws",
+    "url": "https://github.com/willbengtson/trailblazer-aws"
+  },
+  {
+    "name": "TrailScraper",
+    "description": "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies.",
+    "tags": [
+      "Cloud Security",
+      "AWS",
+      "IAM",
+      "CloudTrail"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/flosell/trailscraper",
+    "url": "https://github.com/flosell/trailscraper"
+  },
+  {
+    "name": "Trivy",
+    "description": "Trivy (tri pronounced like trigger, vy pronounced like envy) is a simple and comprehensive vulnerability scanner for containers. A software vulnerability is a glitch, flaw, or weakness present in the software or in an Operating System. Trivy detects vulnerabilities of OS packages (Alpine, RHEL, CentOS, etc.) and application dependencies (Bundler, Composer, npm, yarn etc.). Trivy is easy to use. Just install the binary and you're ready to scan. All you need to do for scanning is to specify an image name of the container.",
+    "tags": [
+      "Container Security",
+      "Docker",
+      "Security Scanning",
+      "CVE",
+      "Dependency Scanning"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac",
+      "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/aquasecurity/trivy",
+    "url": "https://github.com/aquasecurity/trivy"
+  },
+  {
+    "name": "Vault",
+    "description": "Vault is a tool for securely accessing secrets. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, and more. Vault provides a unified interface to any secret, while providing tight access control and recording a detailed audit log.",
+    "tags": [
+      "Secrets Management",
+      "Security",
+      "Secrets Storage",
+      "golang"
+    ],
+    "operating_systems": [
+      "windows",
+      "linux",
+      "mac"
+    ],
+    "license": "MPL-2",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/hashicorp/vault",
+    "url": "https://www.vaultproject.io"
+  },
+  {
+    "name": "Zeus",
+    "description": "Zeus is a powerful tool for AWS EC2 / S3 / CloudTrail / CloudWatch / KMS best hardening practices. It checks security settings according to the profiles the user creates and changes them to recommended settings based on the CIS AWS Benchmark source at request of the user.",
+    "tags": [
+      "Cloud Security",
+      "Security Auditing",
+      "AWS",
+      "CIS Benchmarks",
+      "Security Hardening"
+    ],
+    "operating_systems": [
+      "linux",
+      "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+      "opensource"
+    ],
+    "github_url": "https://github.com/DenizParlak/Zeus",
+    "url": "https://github.com/DenizParlak/Zeus"
+  }
 ]

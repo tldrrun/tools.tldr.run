@@ -1,0 +1,19 @@
+{
+    "name": "MKIT",
+    "description": "MKIT is a Managed Kubernetes Inspection Tool that validates several common security-related configuration settings of managed Kubernetes cluster objects and the workloads/resources running inside the cluster.",
+    "tags": [
+        "Cloud Security",
+        "Security Scanning",
+        "Kubernetes Security",
+        "Risk Analysis"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/darkbitio/mkit",
+    "url": "https://github.com/darkbitio/mkit"
+}

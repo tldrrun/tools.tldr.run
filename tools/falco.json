@@ -1,0 +1,20 @@
+{
+    "name": "Falco",
+    "description": "Falco, the open source cloud-native runtime security project, is the defacto Kubernetes threat detection engine. Falco detects unexpected application behavior and alerts on threats at runtime.",
+    "tags": [
+        "Container Security",
+        "Docker",
+        "Runtime Security",
+        "Security Detection",
+        "Security Monitoring"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/falcosecurity/falco",
+    "url": "https://falco.org"
+}
