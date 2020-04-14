@@ -1,0 +1,22 @@
+{
+    "name": "barq",
+    "description": "barq is a post-exploitation framework that allows you to easily perform attacks on a running AWS infrastructure. It allows you to attack running EC2 instances without having the original instance SSH keypairs. It also allows you to perform enumeration and extraction of stored Secrets and Parameters in AWS.",
+    "tags": [
+        "Penetration Testing",
+        "AWS",
+        "Security Testing",
+        "Cloud Security",
+        "Python"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+"github_url": "https://github.com/Voulnet/barq",
+    "url": "https://github.com/Voulnet/barq"
+}

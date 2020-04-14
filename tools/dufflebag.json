@@ -1,0 +1,22 @@
+{
+    "name": "Dufflebag",
+    "description": "Dufflebag is a tool that searches through public Elastic Block Storage (EBS) snapshots for secrets that may have been accidentally left in. You may be surprised by all the passwords and secrets just laying around!",
+    "tags": [
+        "Secrets Management",
+        "AWS",
+        "Security Scanning",
+        "Snapshots",
+        "Cloud Security"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "",
+    "availability": [
+        "opensource"
+    ],
+"github_url": "https://github.com/bishopfox/dufflebag",
+    "url": "https://github.com/bishopfox/dufflebag"
+}

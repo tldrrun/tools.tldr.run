@@ -1,0 +1,21 @@
+{
+    "name": "GitLeaks",
+    "description": "Audit git repos for secrets. Gitleaks provides a way for you to find unencrypted secrets and other unwanted data types in git repositories.",
+    "tags": [
+        "Secrets Management",
+        "Security Scanning",
+        "Security Auditing",
+        "Golang"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/zricethezav/gitleaks",
+    "url": "https://github.com/zricethezav/gitleaks"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "CloudFrunt",
+    "description": "CloudFrunt is a tool for identifying misconfigured CloudFront domains.",
+    "tags": [
+        "Vulnerability Detection",
+        "AWS",
+        "CloudFront",
+        "Python"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+"github_url": "https://github.com/MindPointGroup/cloudfrunt",
+    "url": "https://github.com/MindPointGroup/cloudfrunt"
+}

@@ -151,3 +151,4 @@ tmp/
 temp/
 
 # End of https://www.gitignore.io/api/node,linux,macos
+public/assets/main.json

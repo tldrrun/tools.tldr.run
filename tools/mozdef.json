@@ -1,0 +1,22 @@
+{
+    "name": "MozDef",
+    "description": "The Mozilla Enterprise Defense Platform (MozDef) seeks to automate the security incident handling process and facilitate the real-time activities of incident handlers.",
+    "tags": [
+        "Defense Platform",
+        "Monitoring & Logging",
+        "AWS",
+        "SIEM",
+        "Python"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MPL-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/mozilla/MozDef",
+    "url": "https://mozdef.readthedocs.io/en/latest/"
+}
