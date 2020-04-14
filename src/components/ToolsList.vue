@@ -2,42 +2,26 @@
   <div>
     <section class="hero is-primary is-bold">
       <div class="container hero-body">
-        <h1 class="title is-1 has-text-centered">
-          Cloud Native Security Tools!
-        </h1>
-        <h2 class="subtitle has-text-centered">
-          Curated list of security tools for Hackers & Builders!
-        </h2>
+        <h1 class="title is-1 has-text-centered">Cloud Native Security Tools!</h1>
+        <h2
+          class="subtitle has-text-centered"
+        >Curated list of security tools for Hackers & Builders!</h2>
         <div class="field has-addons">
-          <input
-            class="input is-rounded"
-            v-model="search"
-            type="text"
-            placeholder="Search Here"
-          />
+          <input class="input is-rounded" v-model="search" type="text" placeholder="Search Here" />
         </div>
       </div>
     </section>
 
     <section class="filterBar">
-      <label
-        class="column checkbox"
-        :class="{ active: selectedOS.includes('windows') }"
-      >
+      <label class="column checkbox" :class="{ active: selectedOS.includes('windows') }">
         <input type="checkbox" value="windows" v-model="selectedOS" />
         <i class="fab fa-windows"></i>Windows
       </label>
-      <label
-        class="column checkbox"
-        :class="{ active: selectedOS.includes('linux') }"
-      >
+      <label class="column checkbox" :class="{ active: selectedOS.includes('linux') }">
         <input type="checkbox" value="linux" v-model="selectedOS" />
         <i class="fab fa-linux"></i>Linux
       </label>
-      <label
-        class="column checkbox"
-        :class="{ active: selectedOS.includes('mac') }"
-      >
+      <label class="column checkbox" :class="{ active: selectedOS.includes('mac') }">
         <input type="checkbox" value="mac" v-model="selectedOS" />
         <i class="fab fa-apple"></i>Mac OSX
       </label>
@@ -45,17 +29,10 @@
         class="column checkbox"
         :class="{ active: selectedAvailability.includes('opensource') }"
       >
-        <input
-          type="checkbox"
-          value="opensource"
-          v-model="selectedAvailability"
-        />
+        <input type="checkbox" value="opensource" v-model="selectedAvailability" />
         <i class="fas fa-laptop-code"></i>Open Source
       </label>
-      <label
-        class="column checkbox"
-        :class="{ active: selectedAvailability.includes('free') }"
-      >
+      <label class="column checkbox" :class="{ active: selectedAvailability.includes('free') }">
         <input type="checkbox" value="free" v-model="selectedAvailability" />
         <i class="fas fa-coffee"></i>Free/Restricted
       </label>
@@ -63,11 +40,7 @@
         class="column checkbox"
         :class="{ active: selectedAvailability.includes('commercial') }"
       >
-        <input
-          type="checkbox"
-          value="commercial"
-          v-model="selectedAvailability"
-        />
+        <input type="checkbox" value="commercial" v-model="selectedAvailability" />
         <i class="fas fa-dollar-sign"></i>Commercial / Proprietary
       </label>
     </section>
@@ -93,7 +66,7 @@
             </label>
             </ul>
             </div>
-            </div> -->
+      </div>-->
 
       <div class="cardContainer">
         <div class="card" v-for="tool in filteredList" v-bind:key="tool.name">
@@ -106,11 +79,7 @@
               >
                 <i class="fas fa-laptop-code"></i>
               </span>
-              <span
-                class="icon"
-                v-if="tool.availability.includes('free')"
-                title="Free/Restricted"
-              >
+              <span class="icon" v-if="tool.availability.includes('free')" title="Free/Restricted">
                 <i class="fas fa-coffee"></i>
               </span>
               <span
@@ -122,44 +91,25 @@
               </span>
             </div>
             <p class="card-header-title is-centered" style="overflow: auto;">
-              <a v-bind:href=tool.url target="_blank">{{ tool.name }}</a>
+              <a v-bind:href="tool.url" target="_blank">{{ tool.name }}</a>
             </p>
             <div class="card-header-icon" aria-label="more options">
-              <span
-                class="icon"
-                v-if="tool.operating_systems.includes('windows')"
-                title="Windows"
-              >
+              <span class="icon" v-if="tool.operating_systems.includes('windows')" title="Windows">
                 <i class="fab fa-windows"></i>
               </span>
-              <span
-                class="icon"
-                v-if="tool.operating_systems.includes('linux')"
-                title="Linux"
-              >
+              <span class="icon" v-if="tool.operating_systems.includes('linux')" title="Linux">
                 <i class="fab fa-linux"></i>
               </span>
-              <span
-                class="icon"
-                v-if="tool.operating_systems.includes('mac')"
-                title="Mac"
-              >
+              <span class="icon" v-if="tool.operating_systems.includes('mac')" title="Mac">
                 <i class="fab fa-apple"></i>
               </span>
             </div>
           </header>
           <div class="card-content" style="max-height: 200px; overflow: auto;">
-            <div class="content has-text-centered">
-              {{ tool.description }}
-            </div>
+            <div class="content has-text-centered">{{ tool.description }}</div>
           </div>
           <footer class="card-footer tags card-footer-item">
-            <span
-              class="tag is-primary"
-              v-for="tag in tool.tags"
-              v-bind:key="tag"
-              >{{ tag }}</span
-            >
+            <span class="tag is-primary" v-for="tag in tool.tags" v-bind:key="tag">{{ tag }}</span>
           </footer>
         </div>
       </div>

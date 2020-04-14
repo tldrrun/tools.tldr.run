@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <ToolsList :toolsData="toolsData"/>
+    <ToolsList :toolsData="toolsData" />
   </div>
 </template>
 
@@ -11,8 +11,8 @@ import ToolsList from "@/components/ToolsList.vue";
 export default {
   name: "App",
   components: {
-    ToolsList,
+    ToolsList
   },
-  props: ['toolsData']
+  props: ["toolsData"]
 };
 </script>

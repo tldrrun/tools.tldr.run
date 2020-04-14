@@ -6,7 +6,7 @@ Vue.config.productionTip = false
 
 const url = "/assets/main.json"
 
-new Vue ({
+new Vue({
   render(createElement) {
     return createElement(App, {
       props: {
@@ -23,17 +23,17 @@ new Vue ({
     }
   },
 
-  mounted(){
+  mounted() {
     let self = this
     axios({
       method: 'get',
       url: url
-    }).then(function(response){
+    }).then(function (response) {
       // console.log(response);
       self.apps.data = response.data;
     })
   },
   methods: {
   }
-  
+
 }).$mount('#app')
