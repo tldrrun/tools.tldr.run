@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
-    />
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-    ></script>
-    <title>Cloud Native Security Tools | Curated list of security tools for Hackers & Builders!</title>
-    <style>
-      html {
-        --color-black: #0b0c10;
-        --color-grey: #1f2833;
-        --color-light-grey: #c5c6c7;
-        --color-light-cyan: #66fcf1;
-        --color-dark-cyan: #45a29e;
-      }
-      html,
-      body,
-      .footer,
-      strong {
-        background-color: var(--color-grey);
-        color: white;
-      }
-      a:hover {
-        color: var(--color-light-cyan);
-      }
-    </style>
-  </head>
-  <body>
-    <noscript>
-      <strong
-        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
-        properly without JavaScript enabled. Please enable it to
-        continue.</strong
-      >
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        &copy; <strong>Cloud Native Security Tools</strong> curated and
-        maintained by
-        <a href="https://madhuakula.com" target="_blank">Madhu Akula</a>
-      </p>
-    </div>
-  </footer>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15752161-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-15752161-3');
+  </script>
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <title>Cloud Native Security Tools | Curated list of security tools for Hackers & Builders!</title>
+  <style>
+    html {
+      --color-black: #0b0c10;
+      --color-grey: #1f2833;
+      --color-light-grey: #c5c6c7;
+      --color-light-cyan: #66fcf1;
+      --color-dark-cyan: #45a29e;
+    }
+
+    html,
+    body,
+    .footer,
+    strong {
+      background-color: var(--color-grey);
+      color: white;
+    }
+
+    a:hover {
+      color: var(--color-light-cyan);
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+      properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      &copy; <strong>Cloud Native Security Tools</strong> curated and
+      maintained by
+      <a href="https://madhuakula.com" target="_blank">Madhu Akula</a>
+    </p>
+  </div>
+</footer>
+
 </html>
