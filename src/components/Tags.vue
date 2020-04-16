@@ -1,33 +1,26 @@
 <template>
   <div>
-    <h4>Tools List</h4>
+    <h4 class="is-center-text is-bold">Tags List</h4>
     <div>
-      <div
-        class="search-bar"
-        v-bind:class="{ single: selectedTags.length <= 0 }"
-      >
-        <input
-          class="input is-rounded"
-          v-model="search"
-          type="text"
-          placeholder="Search Tags"
-        />
+      <div class="search-bar" v-bind:class="{ single: selectedTags.length <= 0 }">
+        <input class="input is-rounded" v-model="search" type="text" placeholder="Search Tags" />
         <div
           v-if="selectedTags.length > 0"
           title="Clear all selection"
           v-on:click="clearSelection"
-        >
-          X
-        </div>
+        >X</div>
       </div>
-      <div
-        class="tool"
-        v-for="tag in filteredTagsList"
-        v-bind:key="tag"
-        v-bind:class="{ active: selectedTags.includes(tag) }"
-        v-on:click="selectTag(tag)"
-      >
-        {{ tag }}
+      <div class="tags is-grouped is-grouped-multiline">
+        <div
+          class="tool tag"
+          v-for="tag in filteredTagsList"
+          v-bind:key="tag"
+          v-bind:class="{ active: selectedTags.includes(tag) }"
+          v-on:click="selectTag(tag)"
+        >
+          {{ tag }}
+          <span class="delete-option">X</span>
+        </div>
       </div>
     </div>
   </div>
@@ -42,23 +35,23 @@ export default {
     },
     clearSelection() {
       this.$emit("clearTagSelection");
-    },
+    }
   },
   data() {
     return {
-      search: "",
+      search: ""
     };
   },
   computed: {
     filteredTagsList() {
-      return this.tagsList.filter((tag) => {
+      return this.tagsList.filter(tag => {
         if (this.search) {
           return tag.toLowerCase().includes(this.search.toLowerCase().trim());
         }
         return true;
       });
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -74,6 +67,10 @@ h4 {
   margin-bottom: 10px;
   font-weight: bold;
 }
+/* .tags {
+  max-height: 60vh;
+  overflow: scroll;
+} */
 .tool {
   border-radius: 5px;
   padding: 5px 10px;
@@ -82,8 +79,14 @@ h4 {
 }
 .tool:hover,
 .tool.active {
-  background-color: white;
-  color: var(--color-grey);
+  background-color: #00d7ac;
+  color: white;
+}
+.tool .delete-option {
+  padding: 2px 5px;
+}
+.tool:not(.active) .delete-option {
+  display: none;
 }
 .search-bar {
   margin-bottom: 5px;
