@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "preserve": "cat tools/*.json | jq -s 'flatten' > public/assets/main.json",
     "serve": "vue-cli-service serve",
-    "prebuild": "cat tools/*.json | jq -s 'flatten' > public/assets/main.json",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prebuild": "cat tools/*.json | jq -s 'flatten' > public/assets/main.json",
+    "preserve": "cat tools/*.json | jq -s 'flatten' > public/assets/main.json"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -15,9 +15,9 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.2.0",
-    "@vue/cli-plugin-eslint": "~4.2.0",
-    "@vue/cli-service": "~4.2.0",
+    "@vue/cli-plugin-babel": "~4.3.1",
+    "@vue/cli-plugin-eslint": "~4.3.1",
+    "@vue/cli-service": "~4.3.1",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
