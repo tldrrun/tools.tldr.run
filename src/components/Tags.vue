@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4 class="is-center-text is-bold">Tags List</h4>
+    <h4 class="is-center-text is-bold is-dark">Tags List</h4>
     <div>
       <div class="search-bar" v-bind:class="{ single: selectedTags.length <= 0 }">
         <input class="input is-rounded" v-model="search" type="text" placeholder="Search Tags" />
@@ -12,7 +12,7 @@
       </div>
       <div class="tags is-grouped is-grouped-multiline">
         <div
-          class="tool tag"
+          class="tool tag is-black"
           v-for="tag in filteredTagsList"
           v-bind:key="tag"
           v-bind:class="{ active: selectedTags.includes(tag) }"
@@ -59,13 +59,13 @@ export default {
 h4 {
   font-size: 18px;
   padding: 5px 10px;
-  color: white;
-  background-color: #1ab9a1;
+  background-color: var(--yellow);
   border-radius: 5px;
-  border: 2px solid #1ab9a1;
+  border: 2px solid var(--yellow);
   user-select: none;
   margin-bottom: 10px;
   font-weight: bold;
+  color: black;
 }
 /* .tags {
   max-height: 60vh;
@@ -79,8 +79,8 @@ h4 {
 }
 .tool:hover,
 .tool.active {
-  background-color: #00d7ac;
-  color: white;
+  background-color: var(--yellow);
+  color: black;
 }
 .tool .delete-option {
   padding: 2px 5px;

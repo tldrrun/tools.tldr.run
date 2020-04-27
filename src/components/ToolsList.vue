@@ -1,19 +1,19 @@
 <template>
   <div>
-    <section class="hero is-primary is-bold">
+    <section class="hero is-bold">
 
       <div class="container hero-body">
-        <h1 class="title is-1 has-text-centered">Cloud Native Security Tools!</h1>
+        <h1 class="title is-1 has-text-centered has-text-white">Security Tools!</h1>
         <h2
-          class="subtitle has-text-centered"
+          class="subtitle has-text-centered has-text-white"
         >Curated list of security tools for Hackers & Builders!</h2>
-          <h2 class="title is-5 has-text-centered"><a class="has-text-white" href="https://github.com/CloudNativeSecurity/tools.cloudnativesecurity.info" target="_blank">Submit your tool @ Github</a></h2>
+          <h2 class="title is-5 has-text-centered"><a class="has-text-white" href="https://github.com/CloudNativeSecurity/tools.tldr.run" target="_blank">Submit your tool @ Github</a></h2>
 
                 <div class="has-text-centered">
           <!-- Sharingbutton Facebook -->
           <a
             class="resp-sharing-button__link"
-            href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftools.cloudnativesecurity.info"
+            href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftools.tldr.run"
             target="_blank"
             rel="noopener"
             aria-label
@@ -35,7 +35,7 @@
           <!-- Sharingbutton Twitter -->
           <a
             class="resp-sharing-button__link"
-            href="https://twitter.com/intent/tweet/?text=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!&amp;url=https%3A%2F%2Ftools.cloudnativesecurity.info"
+            href="https://twitter.com/intent/tweet/?text=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!&amp;url=https%3A%2F%2Ftools.tldr.run"
             target="_blank"
             rel="noopener"
             aria-label
@@ -57,7 +57,7 @@
           <!-- Sharingbutton LinkedIn -->
           <a
             class="resp-sharing-button__link"
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Ftools.cloudnativesecurity.info&amp;title=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!&amp;summary=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!&amp;source=https%3A%2F%2Ftools.cloudnativesecurity.info"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Ftools.tldr.run&amp;title=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!&amp;summary=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!&amp;source=https%3A%2F%2Ftools.tldr.run"
             target="_blank"
             rel="noopener"
             aria-label
@@ -79,7 +79,7 @@
           <!-- Sharingbutton Reddit -->
           <a
             class="resp-sharing-button__link"
-            href="https://reddit.com/submit/?url=https%3A%2F%2Ftools.cloudnativesecurity.info&amp;resubmit=true&amp;title=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!"
+            href="https://reddit.com/submit/?url=https%3A%2F%2Ftools.tldr.run&amp;resubmit=true&amp;title=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!"
             target="_blank"
             rel="noopener"
             aria-label
@@ -101,7 +101,7 @@
           <!-- Sharingbutton WhatsApp -->
           <a
             class="resp-sharing-button__link"
-            href="whatsapp://send?text=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!%20https%3A%2F%2Ftools.cloudnativesecurity.info"
+            href="whatsapp://send?text=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!%20https%3A%2F%2Ftools.tldr.run"
             target="_blank"
             rel="noopener"
             aria-label
@@ -123,7 +123,7 @@
           <!-- Sharingbutton Hacker News -->
           <a
             class="resp-sharing-button__link"
-            href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Ftools.cloudnativesecurity.info&amp;t=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!"
+            href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Ftools.tldr.run&amp;t=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!"
             target="_blank"
             rel="noopener"
             aria-label
@@ -148,7 +148,7 @@
           <!-- Sharingbutton Telegram -->
           <a
             class="resp-sharing-button__link"
-            href="https://telegram.me/share/url?text=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!&amp;url=https%3A%2F%2Ftools.cloudnativesecurity.info"
+            href="https://telegram.me/share/url?text=Curated%20list%20of%20security%20tools%20for%20Hackers%20%26%20Builders!&amp;url=https%3A%2F%2Ftools.tldr.run"
             target="_blank"
             rel="noopener"
             aria-label
@@ -257,7 +257,7 @@
             <div class="content has-text-centered">{{ tool.description }}</div>
           </div>
           <footer class="card-footer tags card-footer-item">
-            <span class="tag is-primary" v-for="tag in tool.tags" v-bind:key="tag">{{ tag }}</span>
+            <span class="tag" v-for="tag in tool.tags" v-bind:key="tag">{{ tag }}</span>
           </footer>
         </div>
       </div>
@@ -266,7 +266,7 @@
       </div>
     </section>
     <div class="scrollToTop" v-on:click="scrollToTop" v-bind:class="{top: isTop}">
-      <i class="fas fa-arrow-up"></i>
+      <i class="fas fa-arrow-up has-text-dark"></i>
     </div>
   </div>
 </template>
@@ -394,15 +394,16 @@ export default {
 }
 .tag {
   transition: background-color ease-in 400ms;
+  background-color: var(--yellow);
 }
 .card:hover .tag {
-  background-color: #1ab9a1;
+  background-color: var(--yellow-dark);
 }
 
 .filterBar {
   margin: 10px;
   box-shadow: 0 0 10px rgba(100, 100, 100, 0.2);
-  border: 2px solid #1ab9a1;
+  border: 2px solid var(--yellow);
   border-radius: 5px;
   display: flex;
   text-align: center;
@@ -421,8 +422,7 @@ export default {
 }
 .filterBar label:hover,
 .filterBar label.active {
-  background-color: #1ab9a1;
-  color: white;
+  background-color: var(--yellow);
 }
 .filterBar label svg {
   margin-right: 5px;
@@ -446,7 +446,7 @@ export default {
   align-items: center;
   cursor: pointer;
   border-radius: 50%;
-  background-color: #1ab9a1;
+  background-color: var(--yellow);
   box-shadow: 0 0 10px rgba(100, 100, 100, 0.2);
   opacity: 100%;
   transition: opacity ease-in 300ms;
