@@ -1,0 +1,23 @@
+{
+    "name": "S3Scanner",
+    "description": "Scan for open AWS S3 buckets and dump the contents. The tool takes in a list of bucket names to check. Found S3 buckets are output to file. The tool will also dump or list the contents of 'open' buckets locally.",
+    "tags": [
+        "S3",
+        "Security Scanning",
+        "Cloud Security",
+        "Security Scanning",
+        "Security Auditing",
+        "AWS"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/sa7mon/S3Scanner",
+    "url": "https://github.com/sa7mon/S3Scanner"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "AWS Vault",
+    "description": "A vault for securely storing and accessing AWS credentials in development environments. AWS Vault stores IAM credentials in your operating system's secure keystore and then generates temporary credentials from those to expose to your shell and applications. It's designed to be complementary to the AWS CLI tools, and is aware of your profiles and configuration in ~/.aws/config.",
+    "tags": [
+        "Secrets Management",
+        "Security",
+        "Secrets Storage",
+        "AWS",
+        "Vault",
+        "golang"
+    ],
+    "operating_systems": [
+        "windows",
+        "linux",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/99designs/aws-vault",
+    "url": "https://github.com/99designs/aws-vault"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Diffy",
+    "description": "Diffy is a digital forensics and incident response (DFIR) tool developed by Netflix's Security Intelligence and Response Team (SIRT). Diffy allows a forensic investigator to quickly scope a compromise across cloud instances during an incident, and triage those instances for followup actions. Diffy is currently focused on Linux instances running within Amazon Web Services (AWS), but owing to our plugin structure, could support multiple platforms and cloud providers.",
+    "tags": [
+        "AWS",
+        "DFIR",
+        "Incident Response",
+        "Forensics",
+        "Cloud Security",
+        "Python"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/Netflix-Skunkworks/diffy",
+    "url": "https://github.com/Netflix-Skunkworks/diffy"
+}   

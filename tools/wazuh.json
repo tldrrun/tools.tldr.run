@@ -1,0 +1,21 @@
+{
+    "name": "Wazuh",
+    "description": "Wazuh helps you to gain deeper security visibility into your infrastructure by monitoring hosts at an operating system and application level. Wazuh is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, incident response and compliance.",
+    "tags": [
+        "Security",
+        "SIEM",
+        "Security Monitoring",
+        "Logging & Monitoring",
+        "ELK",
+        "OSSEC"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "GPL-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/wazuh/wazuh",
+    "url": "https://wazuh.com/"
+}

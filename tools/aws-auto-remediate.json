@@ -1,0 +1,23 @@
+{
+    "name": "AWS Auto Remediate",
+    "description": "Open source application to instantly remediate common security issues through the use of AWS Config. The Auto Remediate function is triggered via an SQS Queue auto-remediate-config-compliance. The SQS Queue is populated with a compliance payload from AWS Config via a CloudWatch Event auto-remediate-config-compliance. The purpose of the CloudWatch Event is to filter out all non-compliance related messages that AWS Config generates.",
+    "tags": [
+        "AWS",
+        "Security Hardening",
+        "Cloud Security",
+        "Cloud Compliance",
+        "AWS Config",
+        "Serverless"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "GPL-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/servian/aws-auto-remediate",
+    "url": "https://github.com/servian/aws-auto-remediate"
+}   

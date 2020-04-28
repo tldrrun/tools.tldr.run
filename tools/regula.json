@@ -1,0 +1,22 @@
+{
+    "name": "Regula",
+    "description": "Regula checks Terraform for AWS, Azure and GCP security and CIS compliance using Open Policy Agent/Rego. Regula is a tool that evaluates Terraform infrastructure-as-code for potential AWS, Azure, and Google Cloud security misconfigurations and compliance violations prior to deployment.",
+    "tags": [
+        "Cloud Security",
+        "Policy Generator",
+        "Rule Engine",
+        "Continuous Security",
+        "IaaC"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+"github_url": "https://github.com/fugue/regula",
+    "url": "https://github.com/fugue/regula"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "aws-logsearch",
+    "description": "Search AWS CloudWatch logs all at once on the command line. This uses the aws sdk-for-go. See Configuring Credentials to configure your AWS secrets.",
+    "tags": [
+        "AWS",
+        "Log Analysis",
+        "Cloud Security",
+        "CloudWatch",
+        "Golang"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/endgameinc/aws-logsearch",
+    "url": "https://github.com/endgameinc/aws-logsearch"
+}   

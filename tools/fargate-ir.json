@@ -1,0 +1,24 @@
+{
+    "name": "Fargate IR",
+    "description": "Proof of concept incident response demo using SSM and AWS Fargate. Proof of concept around how the SSM Agent running in Fargate can be orchestrated to help with incident response.",
+    "tags": [
+        "AWS",
+        "DFIR",
+        "Incident Response",
+        "Fargate",
+        "Cloud Security",
+        "SSM",
+        "Python"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/andrewkrug/fargate-ir",
+    "url": "https://github.com/andrewkrug/fargate-ir"
+}   

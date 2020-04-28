@@ -1,0 +1,23 @@
+{
+    "name": "Frost",
+    "description": "Unit testing framework for test driven security of AWS, GCP, Heroku and more. Clients and pytest tests for checking that third party services the @foxsec team uses are configured correctly.",
+    "tags": [
+        "Cloud Security",
+        "Security Audit",
+        "Security Testing",
+        "Unit Testing",
+        "Continuous Security",
+        "Python"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MPL-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/mozilla/frost",
+    "url": "https://github.com/mozilla/frost"
+}   

@@ -1,0 +1,22 @@
+{
+    "name": "Krampus",
+    "description": " Krampus is a security solution designed to delete and disable various AWS objects such as EC2 instances, S3 buckets, etc. It accepts a simple list of objects to action in the form of a JSON tasks file, and can be also be used as a cost-control tool.",
+    "tags": [
+        "Security",
+        "AWS",
+        "Security Automation",
+        "Infosec",
+        "python"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/sendgrid/krampus",
+    "url": "https://github.com/sendgrid/krampus"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Terraform Parliament",
+    "description": "Terraform Parliament - Run Parliament AWS IAM Checker on Terraform Files. Parliament checks IAM policy validity against the latest AWS IAM specifications, so e.g. It'll pick up if your policy uses an older Action like billing:*, instead of the current aws-portal:*. By default, Parliament runs only on JSON IAM policies, not Terraform files. However I wanted to validate my Terraform files.",
+    "tags": [
+        "Cloud Security",
+        "Security Linter",
+        "Terraform",
+        "Static Analysis",
+        "Continuous Security",
+        "IaaC",
+        "IAM",
+        "Compliance"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/rdkls/tf-parliament",
+    "url": "https://github.com/rdkls/tf-parliament"
+}   

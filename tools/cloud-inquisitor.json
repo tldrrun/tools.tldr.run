@@ -1,0 +1,22 @@
+{
+    "name": "Cloud Inquisitor",
+    "description": "Enforce ownership and data security within AWS.",
+    "tags": [
+        "Security",
+        "AWS",
+        "Cloud Security",
+        "Data Security",
+        "python"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/RiotGames/cloud-inquisitor",
+    "url": "https://cloud-inquisitor.readthedocs.io/"
+}

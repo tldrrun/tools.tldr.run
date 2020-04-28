@@ -1,0 +1,22 @@
+{
+    "name": "ssm-acquire",
+    "description": "A python module for orchestrating content acquisitions and analysis via amazon ssm. A python module for orchestrating content acquisitions and analysis via amazon ssm. Note: This is a pre-release.",
+    "tags": [
+        "AWS",
+        "Incident Response",
+        "Cloud Security",
+        "Python",
+        "SSM"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MPL-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/mozilla/ssm-acquire",
+    "url": "https://github.com/mozilla/ssm-acquire"
+}   

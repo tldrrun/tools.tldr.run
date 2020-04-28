@@ -1,0 +1,24 @@
+{
+    "name": "Checkov",
+    "description": "Prevent cloud misconfigurations during build time - Terraform & Cloudformation static analysis. Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform or cloudformation and detects security and compliance misconfigurations.",
+    "tags": [
+        "Cloud Security",
+        "Security Linter",
+        "Terraform",
+        "Static Analysis",
+        "Continuous Security",
+        "IaaC",
+        "Compliance"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/bridgecrewio/checkov",
+    "url": "https://www.checkov.io/"
+}   

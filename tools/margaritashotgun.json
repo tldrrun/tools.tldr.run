@@ -1,0 +1,22 @@
+{
+    "name": "Margarita Shotgun",
+    "description": "Python Remote Memory Aquisition tool",
+    "tags": [
+        "AWS",
+        "Incident Response",
+        "Forensics",
+        "Python",
+        "Memory Analysis"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/ThreatResponse/margaritashotgun",
+    "url": "https://github.com/ThreatResponse/margaritashotgun"
+}   

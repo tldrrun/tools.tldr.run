@@ -1,0 +1,23 @@
+{
+    "name": "ElectricEye",
+    "description": "Continuously monitor your AWS services for configurations that can lead to degradation of confidentiality, integrity or availability. All results will be sent to Security Hub for further aggregation and analysis.",
+    "tags": [
+        "AWS",
+        "Risk Management",
+        "Security Hardening",
+        "Security Monitoring",
+        "Continuous Security",
+        "Compliance"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "GPL-3",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/jonrau1/ElectricEye",
+    "url": "https://github.com/jonrau1/ElectricEye"
+}   

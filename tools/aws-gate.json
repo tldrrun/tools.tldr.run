@@ -1,0 +1,22 @@
+{
+    "name": "aws-gate",
+    "description": "Better AWS SSM Session manager CLI client. I am using AWS a lot and I am tired of dealing with everything that comes with the bastion host (additional instance one has to maintain, distribute SSH keys (shared SSH keys are not an option for me), exposing SSH to the network). A while ago, Amazon released a service to fix this - AWS Systems Manager Session Manager",
+    "tags": [
+        "AWS",
+        "Session Manager",
+        "Cloud Security",
+        "Python",
+        "SSM"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "BSD",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/xen0l/aws-gate",
+    "url": "https://aws-gate.readthedocs.io/"
+}   

@@ -1,0 +1,21 @@
+{
+    "name": "AWS Assume Role Helper",
+    "description": "assume is a simple CLI utility that makes it easier to switch between different AWS roles. This is helpful when you work with different AWS accounts or users. In addition, this utility is helpful when you develop AWS resources locally (such as an application that will run on EC2 or when running a Lambda function locally using AWS SAM). You can easily switch to a role that your EC2 instance / Lambda function will assume in AWS.",
+    "tags": [
+        "Cloud Security",
+        "IAM",
+        "AWS",
+        "Python"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/SanderKnape/assume",
+    "url": "https://github.com/SanderKnape/assume"
+}   

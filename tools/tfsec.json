@@ -1,0 +1,24 @@
+{
+    "name": "tfsec",
+    "description": "Static analysis powered security scanner for your terraform code. tfsec uses static analysis of your terraform templates to spot potential security issues. Now with terraform v0.12+ support.",
+    "tags": [
+        "Cloud Security",
+        "Security Linter",
+        "Terraform",
+        "Static Analysis",
+        "Continuous Security",
+        "IaaC",
+        "Compliance"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/liamg/tfsec",
+    "url": "https://github.com/liamg/tfsec"
+}   
