@@ -1,0 +1,18 @@
+{
+    "name": "Android Application Analyzer",
+    "description": "Android application analyzer helps pentester to to analyze the content of the android application in local storage.",
+    "tags": [
+        "Android",
+        "Vulnerability Assessment"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/NotSoSecure/android_application_analyzer"
+}
