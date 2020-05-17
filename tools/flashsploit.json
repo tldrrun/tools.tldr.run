@@ -1,0 +1,23 @@
+{
+    "name": "FlashSploit",
+    "description": "Exploitation Framework for ATtiny85 Based HID Attacks",
+    "tags": [
+        "Flashsploit",
+        "framework",
+        "exploit",
+        "attiny85",
+        "hid",
+        "rubberducky",
+        "redteam"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/thewhiteh4t/flashsploit",
+    "url": "https://github.com/thewhiteh4t/flashsploit"
+}

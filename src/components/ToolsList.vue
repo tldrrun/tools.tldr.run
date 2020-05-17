@@ -6,7 +6,7 @@
         <h2 class="subtitle has-text-centered has-text-white">Curated list of security tools for Hackers & Builders!</h2>
       
 
-          <h2 class="title is-5 has-text-centered"><a class="button has-text-dark has-background-light" href="https://github.com/tldrrun/tools.tldr.run" target="_blank">Submit your awesome tools<i class="fas fa-smile-beam"></i></a></h2>
+          <h2 class="title is-5 has-text-centered"><a class="button has-text-dark has-background-light" href="https://github.com/tldrrun/tools.tldr.run#contributing" target="_blank">Submit your awesome tools<i class="fas fa-smile-beam"></i></a></h2>
 
 
           <center>

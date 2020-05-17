@@ -1,0 +1,23 @@
+{
+    "name": "Impulse",
+    "description": "Impulse Denial-of-service ToolKit. Modern Denial-of-service ToolKit",
+    "tags": [
+        "DDOS",
+        "Python",
+        "DOS",
+        "Security",
+        "Hacking",
+        "TCP"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "GPL-3.0",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/LimerBoy/Impulse",
+    "url": "https://github.com/LimerBoy/Impulse"
+}

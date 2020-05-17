@@ -1,0 +1,22 @@
+{
+    "name": "Killcast",
+    "description": "Manipulate chromecast devices in your network",
+    "tags": [
+        "Killcast",
+        "google",
+        "chromecast",
+        "exploit",
+        "casthack",
+        "thewhiteh4t"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/thewhiteh4t/killcast",
+    "url": "https://github.com/thewhiteh4t/killcast"
+}

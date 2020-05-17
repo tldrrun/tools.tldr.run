@@ -1,0 +1,19 @@
+{
+    "name": "gotit",
+    "description": "Returns the html TITLE for a list of URLs. Very useful for recon / domain flyovers.",
+    "tags": [
+        "BugBounty"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "N/A",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/cybercdh/gotit",
+    "url": "https://github.com/cybercdh/gotit"
+}

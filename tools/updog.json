@@ -1,0 +1,16 @@
+{
+    "name": "updog",
+    "description": "Webserver oneliner with more features than python's simplehttpserver. Like HTTPS and authentication.",
+    "tags": [
+        "webserver"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/sc0tfree/updog",
+    "url": "https://github.com/sc0tfree/updog"
+}

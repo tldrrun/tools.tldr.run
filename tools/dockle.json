@@ -16,9 +16,7 @@
     ],
     "license": "AGPL-3.0",
     "availability": [
-        "opensource",
-        "free",
-        "commercial"
+        "opensource"
     ],
     "github_url": "https://github.com/goodwithtech/dockle",
     "url": "https://containers.goodwith.tech/"

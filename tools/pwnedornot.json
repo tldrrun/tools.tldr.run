@@ -1,0 +1,22 @@
+{
+    "name": "pwnedOrNot",
+    "description": "OSINT tool for finding passwords of compromised email addresses",
+    "tags": [
+        "pwnedornot",
+        "hibp",
+        "breach",
+        "passwords",
+        "osint",
+        "thewhiteh4t"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/thewhiteh4t/pwnedornot",
+    "url": "https://github.com/thewhiteh4t/pwnedornot"
+}

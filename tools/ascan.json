@@ -1,0 +1,23 @@
+{
+    "name": "AScan",
+    "description": "Python script to perform nmap(topscan), HTTP Security header, ssl version, weak ciphers, certificate expiry&algorithm",
+    "tags": [
+        "python",
+        "nmap",
+        "sslyze",
+        "testssl",
+        "certificate",
+        "sqlitedb",
+        "excel"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/nallamuthu/Ascan",
+    "url": "https://github.com/nallamuthu/Ascan"
+}

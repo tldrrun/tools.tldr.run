@@ -1,0 +1,22 @@
+{
+    "name": "ReconSpider",
+    "description": "🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.",
+    "tags": [
+        "Recon",
+        "Spider",
+        "Reconnaissance",
+        "crawler",
+        "osint",
+        "security"
+    ],
+    "operating_systems": [
+        "linux", "windows", "mac"
+    ],
+    "license": "GPL-3.0",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/bhavsec/reconspider",
+    "url": "https://github.com/bhavsec/reconspider"
+}

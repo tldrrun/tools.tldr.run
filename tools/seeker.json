@@ -1,0 +1,21 @@
+{
+    "name": "Seeker",
+    "description": "Accurately locate smartphones using social engineering",
+    "tags": [
+        "Seeker",
+        "gps",
+        "geolocation",
+        "map",
+        "thewhiteh4t"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/thewhiteh4t/seeker",
+    "url": "https://github.com/thewhiteh4t/seeker"
+}

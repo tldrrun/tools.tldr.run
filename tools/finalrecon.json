@@ -1,0 +1,21 @@
+{
+    "name": "FinalRecon",
+    "description": "The last recon tool you'll need",
+    "tags": [
+        "Web",
+        "reconnaissance",
+        "recon",
+        "finalrecon",
+        "thewhiteh4t"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/thewhiteh4t/finalrecon",
+    "url": "https://github.com/thewhiteh4t/finalrecon"
+}
