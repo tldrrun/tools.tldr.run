@@ -1,14 +1,18 @@
 <template>
   <div>
     <section class="hero is-bold">
-
       <div class="container hero-body">
         <h1 class="title is-1 has-text-centered has-text-white">Security Tools!</h1>
-        <h2
-          class="subtitle has-text-centered has-text-white"
-        >Curated list of security tools for Hackers & Builders!</h2>
-          <h2 class="title is-5 has-text-centered"><a class="has-text-white" href="https://github.com/tldrrun/tools.tldr.run" target="_blank">Submit your awesome tools <i class="fas fa-smile-beam"></i></a></h2>
+        <h2 class="subtitle has-text-centered has-text-white">Curated list of security tools for Hackers & Builders!</h2>
+      
 
+          <h2 class="title is-5 has-text-centered"><a class="button has-text-dark has-background-light" href="https://github.com/tldrrun/tools.tldr.run" target="_blank">Submit your awesome tools<i class="fas fa-smile-beam"></i></a></h2>
+
+
+          <center>
+            <a href="https://twitter.com/tldrrun?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-dnt="true" data-show-count="true">Follow @tldrrun</a>
+          </center>
+          
           <div class="has-text-centered">
           <!-- Sharingbutton Facebook -->
           <a
@@ -448,7 +452,7 @@ export default {
   border-radius: 50%;
   background-color: var(--yellow);
   box-shadow: 0 0 10px rgba(100, 100, 100, 0.2);
-  opacity: 100%;
+  opacity: 1;
   transition: opacity ease-in 300ms;
 }
 .top {
