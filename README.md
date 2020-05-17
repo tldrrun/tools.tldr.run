@@ -4,7 +4,7 @@
 
 Curated list of security tools for Hackers & Builders!
 
-![Security Tools | https://tools.tldr.run](./security-tools.jpg)
+[![Security Tools | https://tools.tldr.run](./security-tools.jpg)](https://tools.tldr.run)
 
 ## Development & Setup
 
@@ -21,7 +21,7 @@ npm run serve
 * Else, you can also make a pull request by following below steps
   * Fork the repository
   * Add new tool under `tools` folder with new tool name as filename (Example: `docker.json`)
-  * The file schema should contain as follows. `name`, `description`, `tags`, `operating_system`, `availability` and `url` and mandatory
+  * The file schema should contain as follows. `name`, `description`, `tags`, `operating_system`, `availability` and `url` are mandatory
 
 ```json
 {
