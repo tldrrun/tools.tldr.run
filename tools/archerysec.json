@@ -1,0 +1,22 @@
+{
+    "name": "ArcherySec",
+    "description": "ArcherySec is an opensource vulnerability assessment and management tool which helps developers and pentesters to perform scans and manage vulnerabilities. Archery uses popular opensource tools to perform comprehensive scanning for web application and network. It also performs web application dynamic authenticated scanning and covers the whole applications by using selenium. The developers can also utilize the tool for implementation of their DevOps CI/CD environment.",
+    "tags": [
+        "Vulnerability Managment",
+        "DevOps",
+        "automation",
+        "DevSecOps",
+        "Vulnerability Assessment"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "GPL-3.0",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/archerysec/archerysec",
+    "url": "https://www.archerysec.com/"
+}
