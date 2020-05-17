@@ -1,0 +1,25 @@
+{
+    "name": "Dockle",
+    "description": "Container Image Linter for Security, Helping build the Best-Practice Docker Image, Easy to start.",
+    "tags": [
+        "containers",
+        "devops",
+        "automation",
+        "golang",
+        "kubernetes",
+        "docker"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "AGPL-3.0",
+    "availability": [
+        "opensource",
+        "free",
+        "commercial"
+    ],
+    "github_url": "https://github.com/goodwithtech/dockle",
+    "url": "https://containers.goodwith.tech/"
+}
