@@ -1,0 +1,17 @@
+{
+    "name": "DefectDojo",
+    "description": "DefectDojo is a security program and vulnerability management tool. DefectDojo allows you to manage your application security program, maintain product and application information, schedule scans, triage vulnerabilities and push findings into defect trackers. Consolidate your findings into one source of truth with DefectDojo.",
+    "tags": [
+        "Vulnerability Management"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows"
+    ],
+    "license": "BSD 3",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/DefectDojo/django-DefectDojo",
+    "url": "https://github.com/DefectDojo/django-DefectDojo"
+}

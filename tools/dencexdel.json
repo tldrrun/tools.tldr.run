@@ -1,0 +1,21 @@
+{
+    "name": "dEncexdel",
+    "description": "dEncexdel encrypts a linux executable or decrypts it into memory, executes it and deletes the decrypted file.",
+    "tags": [
+        "encryption",
+        "security hardening",
+        "binary security",
+        "executable security",
+        "executable encryption"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "CCANC 4.0",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "",
+    "url": "https://git.hsbp.org/six/dEncexdel"
+}

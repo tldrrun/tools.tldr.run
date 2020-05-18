@@ -1,0 +1,24 @@
+{
+    "name": "Snyk",
+    "description": "CLI and SaaS platforms integration to find & fix known vulnerabilities in open-source dependencies, container images and deployment configuration files",
+    "tags": [
+        "Dependency Management",
+        "Container Security",
+        "Vulnerability scan",
+        "license scan",
+        "deployment manifests scan"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache 2",
+    "availability": [
+        "opensource",
+        "free",
+        "commercial"
+    ],
+    "github_url": "https://github.com/snyk/snyk",
+    "url": "https://snyk.io"
+}
