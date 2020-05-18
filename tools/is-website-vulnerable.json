@@ -1,0 +1,22 @@
+{
+    "name": "is-website-vulnerable",
+    "description": "finds publicly known security vulnerabilities in a website's frontend JavaScript libraries",
+    "tags": [
+        "security",
+        "website",
+        "scan",
+        "scanner"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource",
+        "free",
+    ],
+    "github_url": "https://github.com/lirantal/is-website-vulnerable",
+    "url": "https://github.com/lirantal/is-website-vulnerable"
+}
