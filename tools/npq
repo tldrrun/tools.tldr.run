@@ -1,0 +1,24 @@
+{
+    "name": "npq",
+    "description": "safely install packages with npm or yarn by auditing them as part of your install process",
+    "tags": [
+        "security",
+        "npm",
+        "nodejs",
+        "3rd-party",
+        "scanning",
+        "cve"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource",
+        "free",
+    ],
+    "github_url": "https://github.com/lirantal/npq",
+    "url": "https://github.com/lirantal/npq"
+}
