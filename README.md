@@ -8,10 +8,27 @@ Curated list of security tools for Hackers & Builders!
 
 ## Development & Setup
 
+* Navigate to the code directory and run the following commands to install packages and serve
+
 ```bash
 npm install
 npm run serve
 ```
+
+* Navigate to [http://127.0.0.1:8080](http://127.0.0.1:8080)
+
+## Docker based setup
+
+* Run the following commands to setup using docker
+
+```bash
+git clone https://github.com/tldrrun/tools.tldr.run.git
+cd tools.tldr.run
+docker build -t tldrrun/tools-tldr-run .
+docker run -d --name tools-tldr-run -p 1234:8080 tldrrun/tools-tldr-run
+```
+
+* Navigate to [http://127.0.0.1:8080](http://127.0.0.1:8080)
 
 ## Contributing
 
