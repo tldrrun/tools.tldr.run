@@ -14,8 +14,8 @@
             class="button has-text-dark has-background-light"
             href="https://github.com/tldrrun/tools.tldr.run#contributing"
             target="_blank"
-            >Submit your awesome tools<i class="fas fa-smile-beam"></i
-          ></a>
+            >Submit your awesome tools 😁 ></a
+          >
         </h2>
 
         <center>
@@ -237,21 +237,21 @@
         :class="{ active: selectedOS.includes('windows') }"
       >
         <input type="checkbox" value="windows" v-model="selectedOS" />
-        <i class="fab fa-windows"></i>Windows
+        <Windows />Windows
       </label>
       <label
         class="column checkbox"
         :class="{ active: selectedOS.includes('linux') }"
       >
         <input type="checkbox" value="linux" v-model="selectedOS" />
-        <i class="fab fa-linux"></i>Linux
+        <Linux />Linux
       </label>
       <label
         class="column checkbox"
         :class="{ active: selectedOS.includes('mac') }"
       >
         <input type="checkbox" value="mac" v-model="selectedOS" />
-        <i class="fab fa-apple"></i>Mac OSX
+        <Mac />Mac OSX
       </label>
       <label
         class="column checkbox"
@@ -262,14 +262,14 @@
           value="opensource"
           v-model="selectedAvailability"
         />
-        <i class="fas fa-laptop-code"></i>Open Source
+        <OpenSource />Open Source
       </label>
       <label
         class="column checkbox"
         :class="{ active: selectedAvailability.includes('free') }"
       >
         <input type="checkbox" value="free" v-model="selectedAvailability" />
-        <i class="fas fa-coffee"></i>Free
+        <CoffeeCup />Free
       </label>
       <label
         class="column checkbox"
@@ -280,7 +280,7 @@
           value="commercial"
           v-model="selectedAvailability"
         />
-        <i class="fas fa-dollar-sign"></i>Commercial
+        <Dollar />Commercial
       </label>
     </section>
 
@@ -303,21 +303,21 @@
                 v-if="tool.availability.includes('opensource')"
                 title="Open Source"
               >
-                <i class="fas fa-laptop-code"></i>
+                <OpenSource />
               </span>
               <span
                 class="icon"
                 v-if="tool.availability.includes('free')"
                 title="Free"
               >
-                <i class="fas fa-coffee"></i>
+                <CoffeeCup />
               </span>
               <span
                 class="icon"
                 v-if="tool.availability.includes('commercial')"
                 title="Commercial"
               >
-                <i class="fas fa-dollar-sign"></i>
+                <Dollar />
               </span>
             </div>
             <p class="card-header-title is-centered" style="overflow: auto;">
@@ -329,21 +329,21 @@
                 v-if="tool.operating_systems.includes('windows')"
                 title="Windows"
               >
-                <i class="fab fa-windows"></i>
+                <Windows />
               </span>
               <span
                 class="icon"
                 v-if="tool.operating_systems.includes('linux')"
                 title="Linux"
               >
-                <i class="fab fa-linux"></i>
+                <Linux />
               </span>
               <span
                 class="icon"
                 v-if="tool.operating_systems.includes('mac')"
                 title="Mac"
               >
-                <i class="fab fa-apple"></i>
+                <Mac />
               </span>
             </div>
           </header>
@@ -368,13 +368,19 @@
       v-on:click="scrollToTop"
       v-bind:class="{ top: isTop }"
     >
-      <i class="fas fa-arrow-up has-text-dark"></i>
+      ↑
     </div>
   </div>
 </template>
 
 <script>
 import Tags from "./Tags";
+import CoffeeCup from "../icons/coffee-cup";
+import Dollar from "../icons/dollar-icon";
+import Linux from "../icons/linux-logo";
+import Mac from "../icons/mac-logo";
+import OpenSource from "../icons/open-source";
+import Windows from "../icons/windows-logo";
 import Fuse from "fuse.js";
 import debounce from "lodash.debounce";
 
@@ -383,6 +389,12 @@ export default {
   props: ["toolsData"],
   components: {
     Tags,
+    CoffeeCup,
+    Dollar,
+    Linux,
+    Mac,
+    OpenSource,
+    Windows,
   },
   data() {
     return {
@@ -448,13 +460,8 @@ export default {
   created() {
     window.addEventListener("scroll", this.handleScroll);
     this.fuse = new Fuse(this.toolsData, {
-      keys: [
-        "name",
-        "description",
-        "tags",
-        "license",
-      ],
-      threshold: 0.0
+      keys: ["name", "description", "tags", "license"],
+      threshold: 0.0,
     });
   },
   destroyed() {
@@ -550,8 +557,11 @@ export default {
 .filterBar label.active {
   background-color: var(--yellow);
 }
-.filterBar label svg {
+.filterBar label svg,
+.icon svg {
   margin-right: 5px;
+  width: 20px;
+  height: 20px;
 }
 
 .hero-body {
@@ -567,6 +577,9 @@ export default {
   right: 20px;
   width: 60px;
   height: 60px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
