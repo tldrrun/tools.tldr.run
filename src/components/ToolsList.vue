@@ -321,7 +321,12 @@
               </span>
             </div>
             <p class="card-header-title is-centered" style="overflow: auto;">
-              <a v-bind:href="tool.url" target="_blank">{{ tool.name }}</a>
+              <a
+                v-bind:href="tool.url"
+                target="_blank"
+                v-on:click="triggerOpenTool(tool.name)"
+                >{{ tool.name }}</a
+              >
             </p>
             <div class="card-header-icon" aria-label="more options">
               <span
@@ -470,6 +475,7 @@ export default {
   methods: {
     setSearchTerm: debounce(function(event) {
       this.search = event.target.value;
+      if (event.target.value !== "") this.searchUsed();
     }, 250),
     handleScroll() {
       this.isTop = window.pageYOffset < 250;
@@ -484,6 +490,7 @@ export default {
         this.selectedTags = this.selectedTags.filter((item) => item !== tag);
       } else {
         this.selectedTags = [...this.selectedTags, tag];
+        this.tagsUsed();
       }
     },
     clearTagSelection() {
@@ -497,6 +504,33 @@ export default {
     },
     openSidebar() {
       this.showSidebar = true;
+    },
+    triggerOpenTool(toolName) {
+      const gtag = window.gtag;
+      if (gtag) {
+        gtag("event", "Open A Tool", {
+          event_category: "Click",
+          event_label: toolName,
+        });
+      }
+    },
+    searchUsed() {
+      const gtag = window.gtag;
+      if (gtag) {
+        gtag("event", "Search", {
+          event_category: "Type",
+          event_label: "Used",
+        });
+      }
+    },
+    tagsUsed() {
+      const gtag = window.gtag;
+      if (gtag) {
+        gtag("event", "Tags", {
+          event_category: "Select",
+          event_label: "Used",
+        });
+      }
     },
   },
 };
