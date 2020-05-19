@@ -1,14 +1,27 @@
 <template>
   <div>
-    <h4 class="is-center-text is-bold is-dark">Tags List</h4>
+    <h4 class="is-center-text is-bold is-dark">
+      <span>Tags List</span>
+      <span class="closeTags" v-on:click="closeSidebar">X</span>
+    </h4>
     <div>
-      <div class="search-bar" v-bind:class="{ single: selectedTags.length <= 0 }">
-        <input class="input is-rounded" v-model="search" type="text" placeholder="Search Tags" />
+      <div
+        class="search-bar"
+        v-bind:class="{ single: selectedTags.length <= 0 }"
+      >
+        <input
+          class="input is-rounded"
+          v-model="search"
+          type="text"
+          placeholder="Search Tags"
+        />
         <div
           v-if="selectedTags.length > 0"
           title="Clear all selection"
           v-on:click="clearSelection"
-        >X</div>
+        >
+          X
+        </div>
       </div>
       <div class="tags is-grouped is-grouped-multiline">
         <div
@@ -35,23 +48,26 @@ export default {
     },
     clearSelection() {
       this.$emit("clearTagSelection");
-    }
+    },
+    closeSidebar() {
+      this.$emit("closeSidebar");
+    },
   },
   data() {
     return {
-      search: ""
+      search: "",
     };
   },
   computed: {
     filteredTagsList() {
-      return this.tagsList.filter(tag => {
+      return this.tagsList.filter((tag) => {
         if (this.search) {
           return tag.toLowerCase().includes(this.search.toLowerCase().trim());
         }
         return true;
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -66,18 +82,16 @@ h4 {
   margin-bottom: 10px;
   font-weight: bold;
   color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-/* .tags {
-  max-height: 60vh;
-  overflow: scroll;
-} */
 .tool {
   border-radius: 5px;
   padding: 5px 10px;
   cursor: pointer;
   margin-bottom: 5px;
 }
-.tool:hover,
 .tool.active {
   background-color: var(--yellow);
   color: black;
@@ -112,5 +126,24 @@ h4 {
   background-color: white;
   border-radius: 5px;
   color: var(--color-grey);
+}
+@media screen and (min-width: 600px) {
+  .tool:hover {
+    background-color: var(--yellow);
+    color: black;
+  }
+}
+.closeTags {
+  display: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+@media screen and (max-width: 600px) {
+  .closeTags {
+    display: inline-block;
+  }
+  .tool {
+    font-size: 1rem;
+  }
 }
 </style>

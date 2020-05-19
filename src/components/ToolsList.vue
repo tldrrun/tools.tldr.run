@@ -202,6 +202,24 @@
 
         <br />
         <div class="field has-addons" ref="input">
+          <span class="showOpenSidebar" v-on:click="openSidebar">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-menu"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </span>
           <input
             class="input is-rounded"
             v-model="search"
@@ -271,6 +289,9 @@
         :selectedTags="selectedTags"
         v-on:selectTag="selectTag"
         v-on:clearTagSelection="clearTagSelection"
+        v-on:closeSidebar="closeSidebar"
+        class="tabsList"
+        :class="{ open: showSidebar }"
       />
       <div class="cardContainer" v-if="filteredList.length > 0">
         <div class="card" v-for="tool in filteredList" v-bind:key="tool.name">
@@ -367,6 +388,7 @@ export default {
       selectedAvailability: [],
       selectedTags: [],
       isTop: true,
+      showSidebar: false,
     };
   },
   computed: {
@@ -453,6 +475,13 @@ export default {
     },
     scrollToTop() {
       window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+    closeSidebar() {
+      this.showSidebar = false;
+    },
+    openSidebar() {
+      console.log("open");
+      this.showSidebar = true;
     },
   },
 };
@@ -552,9 +581,23 @@ export default {
 @media screen and (max-width: 600px) {
   .section.body {
     grid-template-columns: 1fr;
+    position: relative;
   }
-  .section.body > *:first-child {
-    display: none;
+  .section.body > .tabsList {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: var(--color-grey);
+    z-index: 1;
+    overflow: scroll;
+    transform: translateX(-100%);
+    transition: 250ms ease-in transform;
+  }
+  .section.body > .tabsList.open {
+    transform: translateX(0);
   }
 }
 @media screen and (min-width: 600px) {
@@ -776,17 +819,28 @@ export default {
   background-color: #4b97d1;
 }
 
+.showOpenSidebar {
+  display: none;
+  align-items: center;
+  padding: 0 10px;
+}
+@media screen and (max-width: 600px) {
+  .showOpenSidebar {
+    display: flex;
+  }
+}
+
 .sticky {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
-  display: block;
   width: 100%;
   padding: 10px;
   background: white;
   animation: fadeIn 250ms ease-in normal;
   animation-iteration-count: 1;
+  color: black;
 }
 @keyframes fadeIn {
   0% {
