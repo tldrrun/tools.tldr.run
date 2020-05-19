@@ -14,7 +14,7 @@
             class="button has-text-dark has-background-light"
             href="https://github.com/tldrrun/tools.tldr.run#contributing"
             target="_blank"
-            >Submit your awesome tools 😁 ></a
+            >Submit your awesome tools 👍</a
           >
         </h2>
 
