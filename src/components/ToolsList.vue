@@ -220,11 +220,12 @@
               <line x1="3" y1="18" x2="21" y2="18"></line>
             </svg>
           </span>
+          <!-- v-model="search" -->
           <input
             class="input is-rounded"
-            v-model="search"
             type="text"
             placeholder="Search Here"
+            v-on:input="setSearchTerm"
           />
         </div>
       </div>
@@ -374,6 +375,8 @@
 
 <script>
 import Tags from "./Tags";
+import Fuse from "fuse.js";
+import debounce from "lodash.debounce";
 
 export default {
   name: "Header",
@@ -389,6 +392,7 @@ export default {
       selectedTags: [],
       isTop: true,
       showSidebar: false,
+      fuse: null,
     };
   },
   computed: {
@@ -397,22 +401,13 @@ export default {
       return Array.from(new Set(toolsList));
     },
     filteredList() {
-      return this.toolsData
+      const toolsData =
+        this.search === ""
+          ? this.toolsData
+          : this.fuse.search(this.search).map((toolsObj) => toolsObj.item);
+
+      const returnData = toolsData
         .filter((tools) => {
-          // return [...this.toolsData, ...this.toolsData].filter(tools => {
-          const allInOne =
-            tools.name +
-            tools.description +
-            tools.availability +
-            tools.operating_system +
-            tools.license +
-            tools.tags.join(" ");
-          return allInOne
-            .toLowerCase()
-            .includes(this.search.toLowerCase().trim());
-        })
-        .filter((tools) => {
-          // console.log(this.selectedOS);
           if (this.selectedOS.length == 0) {
             return true;
           }
@@ -442,6 +437,8 @@ export default {
           }
           return true;
         });
+
+      return returnData;
     },
   },
   mounted() {
@@ -450,11 +447,23 @@ export default {
   },
   created() {
     window.addEventListener("scroll", this.handleScroll);
+    this.fuse = new Fuse(this.toolsData, {
+      keys: [
+        "name",
+        "description",
+        "tags",
+        "license",
+      ],
+      threshold: 0.0
+    });
   },
   destroyed() {
     window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {
+    setSearchTerm: debounce(function(event) {
+      this.search = event.target.value;
+    }, 250),
     handleScroll() {
       this.isTop = window.pageYOffset < 250;
       if (window.pageYOffset > this.inputPosition && window.innerWidth <= 600) {
@@ -480,7 +489,6 @@ export default {
       this.showSidebar = false;
     },
     openSidebar() {
-      console.log("open");
       this.showSidebar = true;
     },
   },

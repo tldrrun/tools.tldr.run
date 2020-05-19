@@ -12,6 +12,8 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
+    "fuse.js": "^6.0.0",
+    "lodash.debounce": "^4.0.8",
     "vue": "^2.6.11"
   },
   "devDependencies": {

@@ -1,10 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import axios from 'axios'
+import data from "../public/assets/main.json"
 
 Vue.config.productionTip = false
-
-const url = "/assets/main.json"
 
 new Vue({
   render(createElement) {
@@ -18,22 +16,8 @@ new Vue({
   data: {
     apps: {
       files: [],
-      data: [],
+      data: data,
       fields: ["name", "description", "tags", "operating_systems", "license", "availability", "github_url", "url"]
     }
-  },
-
-  mounted() {
-    let self = this
-    axios({
-      method: 'get',
-      url: url
-    }).then(function (response) {
-      // console.log(response);
-      self.apps.data = response.data;
-    })
-  },
-  methods: {
   }
-
 }).$mount('#app')
