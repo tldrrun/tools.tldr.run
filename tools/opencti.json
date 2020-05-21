@@ -1,0 +1,1 @@
+{"name":"OpenCTI","description":"Opensource threat intel platform to manage and collaborate among security operation team","tags":["Threat Intelligence","Incident Response"],"operating_systems":["linux","windows","mac"],"license":"Apache License 2.0","availability":["opensource"],"github_url":"https://github.com/OpenCTI-Platform/opencti","url":"https://www.opencti.io/en/"}
