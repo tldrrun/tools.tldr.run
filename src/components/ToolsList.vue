@@ -465,8 +465,10 @@ export default {
   created() {
     window.addEventListener("scroll", this.handleScroll);
     this.fuse = new Fuse(this.toolsData, {
-      keys: ["name", "description", "tags", "license"],
-      threshold: 0.0,
+      keys: [{ name: "name", weight: 2 }, "description", "tags", "license"],
+      threshold: 0.2,
+      location: 0,
+      distance: 10000,
     });
   },
   destroyed() {
