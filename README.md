@@ -1,5 +1,8 @@
 # Security Tools
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://spdx.org/licenses/MIT.html)
+[![Twitter](https://img.shields.io/twitter/follow/tldrrun.svg?style=social&label=Follow)](https://twitter.com/tldrrun)
+
 [https://tools.tldr.run](https://tools.tldr.run)
 
 Curated list of security tools for Hackers & Builders!
