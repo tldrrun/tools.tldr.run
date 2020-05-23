@@ -1,5 +1,6 @@
 # Security Tools
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8015a3e2-1af7-4740-8944-6ef5e190d92a/deploy-status)](https://app.netlify.com/sites/tools-tldr-run/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://spdx.org/licenses/MIT.html)
 [![Twitter](https://img.shields.io/twitter/follow/tldrrun.svg?style=social&label=Follow)](https://twitter.com/tldrrun)
 
