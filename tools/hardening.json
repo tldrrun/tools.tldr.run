@@ -1,0 +1,1 @@
+{"name":"Hardening","description":"Hardening Ubuntu. Systemd edition.","tags":["Security Hardening","Ubuntu","CIS","DISA","STIG"],"operating_systems":["linux"],"license":"Apache License 2.0","availability":["opensource","free"],"github_url":"https://github.com/konstruktoid/hardening","url":"https://github.com/konstruktoid/hardening"}
