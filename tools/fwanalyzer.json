@@ -1,1 +1,29 @@
-{"name":"FwAnalyzer","description":"A tool to analyze filesystem images for security. FwAnalyzer is a tool to analyze (ext2/3/4), FAT/VFat, SquashFS, UBIFS filesystem images, cpio archives, and directory content using a set of configurable rules. FwAnalyzer relies on e2tools for ext filesystems, mtools for FAT filesystems, squashfs-tools for SquashFS filesystems, and ubi_reader for UBIFS filesystems. cpio for cpio archives. SELinux/Capability support for ext2/3/4 images requires a patched version of e2tools. SELinux/Capability support for SquashFS images requires a patched version of squashfs-tools.","tags":["liunx","android","security-audit","security-automation","security-tools","firmware-analysis","firmware-tools","embedded-linux","filesystem-images","filesystem","filesystem-security"],"operating_systems":["linux","windows","mac"],"license":"Apache-2.0","availability":["opensource","free"],"github_url":"https://github.com/cruise-automation/fwanalyzer","url":"https://www.fwanalyzer.io"}
+{
+    "name": "FwAnalyzer",
+    "description": "A tool to analyze filesystem images for security. FwAnalyzer is a tool to analyze (ext2/3/4), FAT/VFat, SquashFS, UBIFS filesystem images, cpio archives, and directory content using a set of configurable rules. FwAnalyzer relies on e2tools for ext filesystems, mtools for FAT filesystems, squashfs-tools for SquashFS filesystems, and ubi_reader for UBIFS filesystems. cpio for cpio archives. SELinux/Capability support for ext2/3/4 images requires a patched version of e2tools. SELinux/Capability support for SquashFS images requires a patched version of squashfs-tools.",
+    "tags": [
+        "liunx",
+        "android",
+        "security-audit",
+        "security-automation",
+        "security-tools",
+        "firmware-analysis",
+        "firmware-tools",
+        "embedded-linux",
+        "filesystem-images",
+        "filesystem",
+        "filesystem-security"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache-2.0",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/cruise-automation/fwanalyzer",
+    "url": "https://www.fwanalyzer.io"
+}

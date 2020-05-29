@@ -2,10 +2,10 @@
     "name": "Clair",
     "description": "Clair is an open source project for the static analysis of vulnerabilities in application containers (currently including apps and docker).",
     "tags": [
-        "Container Security",
-        "Docker",
-        "Security Scanning",
-        "CVE"
+        "container-security",
+        "docker",
+        "security-scanning",
+        "cve"
     ],
     "operating_systems": [
         "linux",

@@ -1,1 +1,30 @@
-{"name":"NTLMRecon","description":"A tool to enumerate information from NTLM authentication enabled web endpoints 🔎\n\nA fast and flexible NTLM reconnaissance tool without external dependencies. Useful to find out information about NTLM endpoints when working with a large set of potential IP addresses and domains.\n\nNTLMRecon is built with flexibilty in mind. Need to run recon on a single URL, an IP address, an entire CIDR range or combination of all of it all put in a single input file? No problem! NTLMRecon got you covered. Read on.","tags":["redteam","ntlm","security","cybersecurity","reconnaissance","recon","ntlmrecon","tools","osint","enumeration","hacking","ntlmssp","hacking-tools"],"operating_systems":["linux","windows","mac"],"license":"MIT","availability":["opensource"],"github_url":"https://github.com/sachinkamath/NTLMRecon","url":"https://github.com/sachinkamath/NTLMRecon"}
+{
+    "name": "NTLMRecon",
+    "description": "A tool to enumerate information from NTLM authentication enabled web endpoints 🔎\n\nA fast and flexible NTLM reconnaissance tool without external dependencies. Useful to find out information about NTLM endpoints when working with a large set of potential IP addresses and domains.\n\nNTLMRecon is built with flexibilty in mind. Need to run recon on a single URL, an IP address, an entire CIDR range or combination of all of it all put in a single input file? No problem! NTLMRecon got you covered. Read on.",
+    "tags": [
+        "redteam",
+        "ntlm",
+        "security",
+        "cybersecurity",
+        "reconnaissance",
+        "recon",
+        "ntlmrecon",
+        "tools",
+        "osint",
+        "enumeration",
+        "hacking",
+        "ntlmssp",
+        "hacking-tools"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/sachinkamath/NTLMRecon",
+    "url": "https://github.com/sachinkamath/NTLMRecon"
+}

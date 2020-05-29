@@ -1,1 +1,21 @@
-{"name":"Lynis","description":"Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.","tags":["Auditing","Compliance","Security Hardening","Vulnerability Detection"],"operating_systems":["linux","mac"],"license":"GPLv3","availability":["opensource","free"],"github_url":"https://github.com/CISOfy/lynis","url":"https://cisofy.com/lynis/"}
+{
+    "name": "Lynis",
+    "description": "Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.",
+    "tags": [
+        "auditing",
+        "compliance",
+        "security-hardening",
+        "vulnerability-detection"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac"
+    ],
+    "license": "GPLv3",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/CISOfy/lynis",
+    "url": "https://cisofy.com/lynis/"
+}

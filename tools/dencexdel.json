@@ -3,10 +3,10 @@
     "description": "dEncexdel encrypts a linux executable or decrypts it into memory, executes it and deletes the decrypted file.",
     "tags": [
         "encryption",
-        "security hardening",
-        "binary security",
-        "executable security",
-        "executable encryption"
+        "security-hardening",
+        "binary-security",
+        "executable-security",
+        "executable-encryption"
     ],
     "operating_systems": [
         "linux"

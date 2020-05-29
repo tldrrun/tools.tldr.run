@@ -1,1 +1,21 @@
-{"name":"dagda","description":"Dagda is a tool to perform static analysis of known vulnerabilities, trojans, viruses, malware \u0026 other malicious threats in docker images/containers and to monitor the docker daemon and running docker containers for detecting anomalous activities.","tags":["docker","security","static-analysis","vulnerabilities","detecting-anomalous-activities","malware-detection"],"operating_systems":["linux"],"license":"Apache-2.0","availability":["opensource"],"github_url":"https://github.com/eliasgranderubio/dagda","url":"https://github.com/eliasgranderubio/dagda"}
+{
+    "name": "dagda",
+    "description": "Dagda is a tool to perform static analysis of known vulnerabilities, trojans, viruses, malware & other malicious threats in docker images/containers and to monitor the docker daemon and running docker containers for detecting anomalous activities.",
+    "tags": [
+        "docker",
+        "security",
+        "static-analysis",
+        "vulnerabilities",
+        "detecting-anomalous-activities",
+        "malware-detection"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "Apache-2.0",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/eliasgranderubio/dagda",
+    "url": "https://github.com/eliasgranderubio/dagda"
+}

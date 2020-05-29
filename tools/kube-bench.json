@@ -2,11 +2,11 @@
     "name": "kube-bench",
     "description": "kube-bench is a Go application that checks whether Kubernetes is deployed securely by running the checks documented in the CIS Kubernetes Benchmark.",
     "tags": [
-        "Container Security",
-        "CIS Benchmarks",
-        "Security Scanning",
-        "Kubernetes Security",
-        "Security Auditing"
+        "container-security",
+        "cis-benchmarks",
+        "security-scanning",
+        "kubernetes-security",
+        "security-auditing"
     ],
     "operating_systems": [
         "linux",

@@ -2,12 +2,12 @@
     "name": "s3-inspector",
     "description": "Tool to check AWS S3 bucket permissions. Compatible with Linux, MacOS and Windows, python 2.7 and 3. May be used as AWS Lambda function.",
     "tags": [
-        "S3",
-        "Security Scanning",
-        "Cloud Security",
-        "Security Auditing",
-        "Security Compliance",
-        "AWS"
+        "s3",
+        "security-scanning",
+        "cloud-security",
+        "security-auditing",
+        "security-compliance",
+        "aws"
     ],
     "operating_systems": [
         "linux",

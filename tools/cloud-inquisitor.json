@@ -2,10 +2,10 @@
     "name": "Cloud Inquisitor",
     "description": "Enforce ownership and data security within AWS.",
     "tags": [
-        "Security",
-        "AWS",
-        "Cloud Security",
-        "Data Security",
+        "security",
+        "aws",
+        "cloud-security",
+        "data-security",
         "python"
     ],
     "operating_systems": [

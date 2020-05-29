@@ -2,13 +2,13 @@
     "name": "Varna",
     "description": "Varna is an AWS serverless cloud security tool that parses and alerts on CloudTrail logs using Event Query Language (EQL). Varna is deployed as a lambda function, for scanning and serving web requests, and a dynamodb table, for keeping track of seen alerts. Varna is cheap & efficient to run, costing less than 15 dollars a month with proper configuration and ingesting alerts as soon as CloudTrail stores them in S3.",
     "tags": [
-        "AWS",
-        "Logging & Monitoring",
-        "Security Monitoring",
-        "Cloud Security",
-        "CloudTrail",
-        "Alerting",
-        "Serverless"
+        "aws",
+        "logging-&-monitoring",
+        "security-monitoring",
+        "cloud-security",
+        "cloudtrail",
+        "alerting",
+        "serverless"
     ],
     "operating_systems": [
         "linux",
@@ -21,4 +21,4 @@
     ],
     "github_url": "https://github.com/endgameinc/varna",
     "url": "https://github.com/endgameinc/varna"
-}   
+}

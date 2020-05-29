@@ -1,1 +1,27 @@
-{"name":"Sqreen","description":"Sqreen analyses application execution logic in real time to deliver more robust security without compromising performance.","tags":["RASP","WAF","Python","Ruby","Node.js","Java","PHP","Go","SSRF"],"operating_systems":["linux","windows","mac"],"license":"","availability":["free","commercial"],"github_url":"http://github.com/sqreen/","url":"https://www.sqreen.com/"}
+{
+    "name": "Sqreen",
+    "description": "Sqreen analyses application execution logic in real time to deliver more robust security without compromising performance.",
+    "tags": [
+        "rasp",
+        "waf",
+        "python",
+        "ruby",
+        "node.js",
+        "java",
+        "php",
+        "go",
+        "ssrf"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "",
+    "availability": [
+        "free",
+        "commercial"
+    ],
+    "github_url": "http://github.com/sqreen/",
+    "url": "https://www.sqreen.com/"
+}

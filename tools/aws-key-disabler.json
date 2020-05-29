@@ -2,11 +2,11 @@
     "name": "AWS Lambda - IAM Access Key Disabler",
     "description": "The AWS Key disabler is a Lambda Function that disables AWS IAM User Access Keys after a set amount of time in order to reduce the risk associated with old access keys.",
     "tags": [
-        "Cloud Security",
-        "Security Auditing",
-        "AWS",
-        "Lambda",
-        "IAM"
+        "cloud-security",
+        "security-auditing",
+        "aws",
+        "lambda",
+        "iam"
     ],
     "operating_systems": [
         "linux",

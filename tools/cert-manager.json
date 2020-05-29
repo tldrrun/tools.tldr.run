@@ -2,11 +2,11 @@
     "name": "cert-manager",
     "description": "Automate certificate management in cloud native environments. cert-manager builds on top of Kubernetes, introducing certificate authorities and certificates as first-class resource types in the Kubernetes API. This makes it possible to provide 'certificates as a service' to developers working within your Kubernetes cluster.",
     "tags": [
-        "TLS Certificates",
-        "Lets Encrypt",
-        "Kubernetes Security",
-        "Certificate Management",
-        "Automation"
+        "tls-certificates",
+        "lets-encrypt",
+        "kubernetes-security",
+        "certificate-management",
+        "automation"
     ],
     "operating_systems": [
         "linux"

@@ -2,10 +2,10 @@
     "name": "Nimbostratus",
     "description": "Tools for fingerprinting and exploiting Amazon cloud infrastructures. These tools are a PoC which I developed for my Pivoting in Amazon clouds talk, developed using the great boto library for accessing Amazon's API.",
     "tags": [
-        "API Metadata",
-        "AWS",
-        "Penetration Testing",
-        "Python"
+        "api-metadata",
+        "aws",
+        "penetration-testing",
+        "python"
     ],
     "operating_systems": [
         "linux",
@@ -16,6 +16,6 @@
     "availability": [
         "opensource"
     ],
-"github_url": "https://github.com/andresriancho/nimbostratus",
+    "github_url": "https://github.com/andresriancho/nimbostratus",
     "url": "https://github.com/andresriancho/nimbostratus"
 }

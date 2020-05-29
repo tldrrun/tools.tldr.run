@@ -2,11 +2,11 @@
     "name": "S3Scanner",
     "description": "Scan for open AWS S3 buckets and dump the contents. The tool takes in a list of bucket names to check. Found S3 buckets are output to file. The tool will also dump or list the contents of 'open' buckets locally.",
     "tags": [
-        "S3",
-        "Security Scanning",
-        "Cloud Security",
-        "Security Auditing",
-        "AWS"
+        "s3",
+        "security-scanning",
+        "cloud-security",
+        "security-auditing",
+        "aws"
     ],
     "operating_systems": [
         "linux",

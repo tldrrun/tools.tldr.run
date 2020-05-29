@@ -2,10 +2,10 @@
     "name": "gVisor",
     "description": "A container sandbox runtime focused on security, efficiency, and ease of use.gVisor is an open-source, OCI-compatible sandbox runtime that provides a virtualized container environment. It runs containers with a new user-space kernel, delivering a low overhead container security solution for high-density applications.",
     "tags": [
-        "Container Security",
-        "Runtime Security",
-        "Sandbox",
-        "System Security"
+        "container-security",
+        "runtime-security",
+        "sandbox",
+        "system-security"
     ],
     "operating_systems": [
         "linux"

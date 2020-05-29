@@ -2,12 +2,12 @@
     "name": "Terrascan",
     "description": "A collection of security and best practice tests for static code analysis of terraform templates using terraform_validate.",
     "tags": [
-        "Cloud Security",
-        "Security Linter",
-        "Terraform",
-        "Static Analysis",
-        "Continuous Security",
-        "IaaC"
+        "cloud-security",
+        "security-linter",
+        "terraform",
+        "static-analysis",
+        "continuous-security",
+        "iaac"
     ],
     "operating_systems": [
         "linux",
@@ -20,4 +20,4 @@
     ],
     "github_url": "https://github.com/cesar-rodriguez/terrascan",
     "url": "https://github.com/cesar-rodriguez/terrascan"
-}   
+}

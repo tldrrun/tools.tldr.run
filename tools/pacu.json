@@ -2,10 +2,10 @@
     "name": "Pacu",
     "description": "Pacu is an open source AWS exploitation framework, designed for offensive security testing against cloud environments. Created and maintained by Rhino Security Labs, Pacu allows penetration testers to exploit configuration flaws within an AWS account, using modules to easily expand its functionality. Current modules enable a range of attacks, including user privilege escalation, backdooring of IAM users, attacking vulnerable Lambda functions, and much more.",
     "tags": [
-        "Penetration Testing",
-        "AWS",
-        "Security Testing",
-        "Python"
+        "penetration-testing",
+        "aws",
+        "security-testing",
+        "python"
     ],
     "operating_systems": [
         "linux",
@@ -16,6 +16,6 @@
     "availability": [
         "opensource"
     ],
-"github_url": "https://github.com/RhinoSecurityLabs/pacu",
+    "github_url": "https://github.com/RhinoSecurityLabs/pacu",
     "url": "https://github.com/RhinoSecurityLabs/pacu"
 }

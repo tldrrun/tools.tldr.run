@@ -2,11 +2,11 @@
     "name": "Prowler",
     "description": "CIS benchmarks and additional checks for security best practices in AWS",
     "tags": [
-        "Cloud Security",
-        "Security Auditing",
-        "AWS",
-        "CIS Benchmarks",
-        "Bash"
+        "cloud-security",
+        "security-auditing",
+        "aws",
+        "cis-benchmarks",
+        "bash"
     ],
     "operating_systems": [
         "linux",

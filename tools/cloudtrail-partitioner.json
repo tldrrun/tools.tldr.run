@@ -2,11 +2,11 @@
     "name": "cloudtrail-partitioner",
     "description": "This project sets up partitioned Athena tables for your CloudTrail logs and updates the partitions nightly. As new AWS accounts begin sending you logs or new AWS regions come online, your paritions will always be up-to-date. It is based on work by Alex Smolen in his post Partitioning CloudTrail Logs in Athena.",
     "tags": [
-        "AWS",
-        "Security Monitoring",
-        "Cloud Security",
-        "Python",
-        "CloudTrail"
+        "aws",
+        "security-monitoring",
+        "cloud-security",
+        "python",
+        "cloudtrail"
     ],
     "operating_systems": [
         "linux",
@@ -19,4 +19,4 @@
     ],
     "github_url": "https://github.com/duo-labs/cloudtrail-partitioner",
     "url": "https://github.com/duo-labs/cloudtrail-partitioner"
-}   
+}

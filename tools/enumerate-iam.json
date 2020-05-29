@@ -2,11 +2,11 @@
     "name": "Enumerate IAM permissions",
     "description": "enumerate-iam.py tries to brute force all API calls allowed by the IAM policy. The calls performed by this tool are all non-destructive (only get* and list* calls are performed).",
     "tags": [
-        "API Metadata",
-        "AWS",
-        "Secretes Management",
-        "Penetration Testing",
-        "Python"
+        "api-metadata",
+        "aws",
+        "secretes-management",
+        "penetration-testing",
+        "python"
     ],
     "operating_systems": [
         "linux",
@@ -17,6 +17,6 @@
     "availability": [
         "opensource"
     ],
-"github_url": "https://github.com/andresriancho/enumerate-iam",
+    "github_url": "https://github.com/andresriancho/enumerate-iam",
     "url": "https://github.com/andresriancho/enumerate-iam"
 }

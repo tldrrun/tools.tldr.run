@@ -2,10 +2,10 @@
     "name": "DumpsterDiver",
     "description": "DumpsterDiver is a tool, which can analyze big volumes of data in search of hardcoded secrets like keys (e.g. AWS Access Key, Azure Share Key or SSH keys) or passwords. Additionally, it allows creating a simple search rules with basic conditions (e.g. report only csv files including at least 10 email addresses). The main idea of this tool is to detect any potential secret leaks.",
     "tags": [
-        "Secrets Management",
-        "Security Scanning",
-        "AWS",
-        "Python"
+        "secrets-management",
+        "security-scanning",
+        "aws",
+        "python"
     ],
     "operating_systems": [
         "linux",

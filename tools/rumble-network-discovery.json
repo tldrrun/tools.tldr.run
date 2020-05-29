@@ -2,11 +2,11 @@
     "name": "Rumble Network Discovery",
     "description": "Rumble is a fast network discovery and asset inventory platform. The free tier includes access to the command-line Rumble Scanner, which produces HTML reports, takes web screenshots,  generates switch topology maps, and identifies network pivot points. Rumble bundles together network discovery, port scanning, web screenshots, SNMP enumeration, and much more.",
     "tags": [
-        "Network Discovery",
-        "Port Scanner",
-        "Topology Mapping",
-        "Asset Inventory",
-        "Web Screenshots"
+        "network-discovery",
+        "port-scanner",
+        "topology-mapping",
+        "asset-inventory",
+        "web-screenshots"
     ],
     "operating_systems": [
         "linux",

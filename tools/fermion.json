@@ -1,1 +1,22 @@
-{"name":"Fermion","description":"Fermion is an electron application that wraps frida-node and monaco-editor. It offers a fully integrated environment to prototype, test and refine Frida scripts through a single UI. With the integration of Monaco come all the features you would expect from Visual Studio Code: Linting, IntelliSense, keybindings, etc. In addition, Fermion has a TypeScript language definition for the Frida API so it is easy to write Frida scripts.","tags":["frida","mobile security","security","infosec"],"operating_systems":["linux","windows","mac"],"license":"BSD3-Clause","availability":["opensource","free"],"github_url":"https://github.com/FuzzySecurity/Fermion","url":"https://github.com/FuzzySecurity/Fermion"}
+{
+    "name": "Fermion",
+    "description": "Fermion is an electron application that wraps frida-node and monaco-editor. It offers a fully integrated environment to prototype, test and refine Frida scripts through a single UI. With the integration of Monaco come all the features you would expect from Visual Studio Code: Linting, IntelliSense, keybindings, etc. In addition, Fermion has a TypeScript language definition for the Frida API so it is easy to write Frida scripts.",
+    "tags": [
+        "frida",
+        "mobile-security",
+        "security",
+        "infosec"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "BSD3-Clause",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/FuzzySecurity/Fermion",
+    "url": "https://github.com/FuzzySecurity/Fermion"
+}

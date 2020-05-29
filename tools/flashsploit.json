@@ -2,7 +2,7 @@
     "name": "FlashSploit",
     "description": "Exploitation Framework for ATtiny85 Based HID Attacks",
     "tags": [
-        "Flashsploit",
+        "flashsploit",
         "framework",
         "exploit",
         "attiny85",

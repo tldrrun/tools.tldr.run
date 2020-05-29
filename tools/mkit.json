@@ -2,10 +2,10 @@
     "name": "MKIT",
     "description": "MKIT is a Managed Kubernetes Inspection Tool that validates several common security-related configuration settings of managed Kubernetes cluster objects and the workloads/resources running inside the cluster.",
     "tags": [
-        "Cloud Security",
-        "Security Scanning",
-        "Kubernetes Security",
-        "Risk Analysis"
+        "cloud-security",
+        "security-scanning",
+        "kubernetes-security",
+        "risk-analysis"
     ],
     "operating_systems": [
         "linux"

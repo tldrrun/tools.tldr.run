@@ -2,12 +2,12 @@
     "name": "Impulse",
     "description": "Impulse Denial-of-service ToolKit. Modern Denial-of-service ToolKit",
     "tags": [
-        "DDOS",
-        "Python",
-        "DOS",
-        "Security",
-        "Hacking",
-        "TCP"
+        "ddos",
+        "python",
+        "dos",
+        "security",
+        "hacking",
+        "tcp"
     ],
     "operating_systems": [
         "linux",

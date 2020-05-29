@@ -2,10 +2,10 @@
     "name": "Perimeterator",
     "description": "Perimeterator is a small project intended to allow for continuous auditing of internet facing AWS services. It can be quickly deployed into AWS and will periodically enumerate internet-facing IP addresses for a number of commonly misconfigured AWS resources.",
     "tags": [
-        "Cloud Security",
-        "Continuous Security",
-        "AWS",
-        "Security Detection"
+        "cloud-security",
+        "continuous-security",
+        "aws",
+        "security-detection"
     ],
     "operating_systems": [
         "linux",
@@ -16,6 +16,6 @@
     "availability": [
         "opensource"
     ],
-"github_url": "https://github.com/darkarnium/perimeterator",
+    "github_url": "https://github.com/darkarnium/perimeterator",
     "url": "https://github.com/darkarnium/perimeterator"
 }

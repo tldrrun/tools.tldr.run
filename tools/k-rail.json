@@ -1,1 +1,23 @@
-{"name":"k-rail","description":"k-rail is a workload policy enforcement tool for Kubernetes. It can help you secure a multi tenant cluster with minimal disruption and maximum velocity.","tags":["kubernetes","security","kubernetes-security","k8s","policy"],"operating_systems":["linux","windows","mac"],"license":"Apache-2.0","availability":["opensource","free"],"github_url":"https://github.com/cruise-automation/k-rail","url":"https://github.com/cruise-automation/k-rail"}
+{
+    "name": "k-rail",
+    "description": "k-rail is a workload policy enforcement tool for Kubernetes. It can help you secure a multi tenant cluster with minimal disruption and maximum velocity.",
+    "tags": [
+        "kubernetes",
+        "security",
+        "kubernetes-security",
+        "k8s",
+        "policy"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache-2.0",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/cruise-automation/k-rail",
+    "url": "https://github.com/cruise-automation/k-rail"
+}

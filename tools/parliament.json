@@ -2,14 +2,14 @@
     "name": "parliament",
     "description": "AWS IAM linting library. parliament is an AWS IAM linting library. It reviews policies looking for problems",
     "tags": [
-        "Cloud Security",
-        "Security Linter",
-        "IAM",
-        "Static Analysis",
-        "Continuous Security",
-        "Security Audit",
-        "IaaC",
-        "Security Policy"
+        "cloud-security",
+        "security-linter",
+        "iam",
+        "static-analysis",
+        "continuous-security",
+        "security-audit",
+        "iaac",
+        "security-policy"
     ],
     "operating_systems": [
         "linux",
@@ -22,4 +22,4 @@
     ],
     "github_url": "https://github.com/duo-labs/parliament",
     "url": "https://github.com/duo-labs/parliament"
-}   
+}

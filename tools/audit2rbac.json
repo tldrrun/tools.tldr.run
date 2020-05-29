@@ -2,10 +2,10 @@
     "name": "audit2rbac",
     "description": "audit2rbac takes a Kubernetes audit log and username as input, and generates RBAC role and binding objects that cover all the API requests made by that user.",
     "tags": [
-        "IAM & RBAC",
-        "Security Scanning",
-        "Kubernetes Security",
-        "Security Auditing",
+        "iam-&-rbac",
+        "security-scanning",
+        "kubernetes-security",
+        "security-auditing",
         "golang"
     ],
     "operating_systems": [

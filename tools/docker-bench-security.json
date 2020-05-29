@@ -2,11 +2,11 @@
     "name": "Docker Bench for Security",
     "description": "The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production. The tests are all automated, and are inspired by the CIS Docker Benchmark v1.2.0.",
     "tags": [
-        "Container Security",
-        "CIS Benchmarks",
-        "Security Scanning",
-        "Docker Security",
-        "Security Auditing"
+        "container-security",
+        "cis-benchmarks",
+        "security-scanning",
+        "docker-security",
+        "security-auditing"
     ],
     "operating_systems": [
         "linux"

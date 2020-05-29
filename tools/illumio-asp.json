@@ -1,1 +1,18 @@
-{"name":"Illumio ASP","description":"Micro segmentation tool for EAST-WEST controls preventing lateral movements. Multi cloud, on prem, Hybrid cloud support","tags":["container security","micro segmentation"],"operating_systems":["linux","windows"],"license":"Commercial","availability":["commercial"],"github_url":"","url":"https://www.illumio.com"}
+{
+    "name": "Illumio ASP",
+    "description": "Micro segmentation tool for EAST-WEST controls preventing lateral movements. Multi cloud, on prem, Hybrid cloud support",
+    "tags": [
+        "container-security",
+        "micro-segmentation"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows"
+    ],
+    "license": "Commercial",
+    "availability": [
+        "commercial"
+    ],
+    "github_url": "",
+    "url": "https://www.illumio.com"
+}

@@ -2,11 +2,11 @@
     "name": "PacBot",
     "description": "Policy as Code Bot (PacBot) is a platform for continuous compliance monitoring, compliance reporting and security automation for the cloud.",
     "tags": [
-        "Cloud Security",
-        "Security Auditing",
-        "AWS",
-        "Compliance",
-        "Continuous Security"
+        "cloud-security",
+        "security-auditing",
+        "aws",
+        "compliance",
+        "continuous-security"
     ],
     "operating_systems": [
         "linux",

@@ -2,13 +2,13 @@
     "name": "serverless-puresec-cli",
     "description": "Serverless plugin for least privileges.",
     "tags": [
-        "Cloud Security",
-        "Least Privilege",
-        "Serverless",
-        "Continuous Security",
-        "AWS",
-        "IAM",
-        "Automation"
+        "cloud-security",
+        "least-privilege",
+        "serverless",
+        "continuous-security",
+        "aws",
+        "iam",
+        "automation"
     ],
     "operating_systems": [
         "linux"
@@ -17,6 +17,6 @@
     "availability": [
         "opensource"
     ],
-"github_url": "https://github.com/puresec/serverless-puresec-cli",
+    "github_url": "https://github.com/puresec/serverless-puresec-cli",
     "url": "https://github.com/puresec/serverless-puresec-cli"
 }

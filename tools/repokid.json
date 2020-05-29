@@ -2,12 +2,12 @@
     "name": "Repokid",
     "description": "Repokid uses Access Advisor provided by Aardvark to remove permissions granting access to unused services from the inline policies of IAM roles in an AWS account.",
     "tags": [
-        "Security",
-        "AWS",
-        "Cloud Security",
-        "IAM",
-        "Python",
-        "Access Advisor"
+        "security",
+        "aws",
+        "cloud-security",
+        "iam",
+        "python",
+        "access-advisor"
     ],
     "operating_systems": [
         "linux",

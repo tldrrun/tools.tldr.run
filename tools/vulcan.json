@@ -2,10 +2,10 @@
     "name": "Vulcan",
     "description": "Vulcan aggregates many security checks which include commercial and open-source tools as well as custom checks to deliver a single report with all vulnerabilities classified.",
     "tags": [
-        "Security Automation",
-        "Security Scanning",
-        "Docker",
-        "Continuous Security",
+        "security-automation",
+        "security-scanning",
+        "docker",
+        "continuous-security",
         "golang"
     ],
     "operating_systems": [

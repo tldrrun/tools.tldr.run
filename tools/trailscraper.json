@@ -2,10 +2,10 @@
     "name": "TrailScraper",
     "description": "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies.",
     "tags": [
-        "Cloud Security",
-        "AWS",
-        "IAM",
-        "CloudTrail"
+        "cloud-security",
+        "aws",
+        "iam",
+        "cloudtrail"
     ],
     "operating_systems": [
         "linux",
