@@ -1,1 +1,19 @@
-{"name":"KubiScan","description":"KubiScan helps cluster administrators identify permissions that attackers could potentially exploit to compromise the clusters. This can be especially helpful on large environments where there are lots of permissions that can be challenging to track. KubiScan gathers information about risky roles\\clusterroles, rolebindings\\clusterrolebindings, users and pods, automating traditional manual processes and giving administrators the visibility they need to reduce risk.","tags":["Kubernetes","RBAC","Security","Risk Analysis"],"operating_systems":["linux"],"license":"GPL-3","availability":["opensource"],"github_url":"https://github.com/cyberark/KubiScan","url":"https://github.com/cyberark/KubiScan"}
+{
+    "name": "KubiScan",
+    "description": "KubiScan helps cluster administrators identify permissions that attackers could potentially exploit to compromise the clusters. This can be especially helpful on large environments where there are lots of permissions that can be challenging to track. KubiScan gathers information about risky roles\\clusterroles, rolebindings\\clusterrolebindings, users and pods, automating traditional manual processes and giving administrators the visibility they need to reduce risk.",
+    "tags": [
+        "kubernetes",
+        "rbac",
+        "security",
+        "risk-analysis"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "GPL-3",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/cyberark/KubiScan",
+    "url": "https://github.com/cyberark/KubiScan"
+}

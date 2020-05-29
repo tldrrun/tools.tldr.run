@@ -2,11 +2,11 @@
     "name": "LambdaGuard",
     "description": "LambdaGuard is an AWS Lambda auditing tool designed to create asset visibility and provide actionable results. It provides a meaningful overview in terms of statistical analysis, AWS service dependencies and configuration checks from the security perspective.",
     "tags": [
-        "Cloud Security",
-        "Serverless",
-        "AWS",
-        "Lambda",
-        "Inventory"
+        "cloud-security",
+        "serverless",
+        "aws",
+        "lambda",
+        "inventory"
     ],
     "operating_systems": [
         "linux",
@@ -17,6 +17,6 @@
     "availability": [
         "opensource"
     ],
-"github_url": "https://github.com/Skyscanner/LambdaGuard",
+    "github_url": "https://github.com/Skyscanner/LambdaGuard",
     "url": "https://github.com/Skyscanner/LambdaGuard"
 }

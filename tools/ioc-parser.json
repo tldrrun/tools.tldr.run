@@ -1,1 +1,23 @@
-{"name":"IOC Parser","description":"A Fast and Reliable service that enables you to extract Indicators of Compromise (IOCs) and intelligence from different data sources.","tags":["IOC","Indicator of Compromise","Security","Infosec","CyberSecurity","Threat Intelligence"],"operating_systems":["linux","windows","mac"],"license":"","availability":["free"],"github_url":"","url":"https://iocparser.com/"}
+{
+    "name": "IOC Parser",
+    "description": "A Fast and Reliable service that enables you to extract Indicators of Compromise (IOCs) and intelligence from different data sources.",
+    "tags": [
+        "ioc",
+        "indicator-of-compromise",
+        "security",
+        "infosec",
+        "cybersecurity",
+        "threat-intelligence"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "",
+    "availability": [
+        "free"
+    ],
+    "github_url": "",
+    "url": "https://iocparser.com/"
+}

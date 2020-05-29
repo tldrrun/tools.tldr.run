@@ -2,12 +2,12 @@
     "name": "CFRipper",
     "description": "CFRipper is a Library and CLI security analyzer for AWS CloudFormation templates. You can use CFRipper to prevent deploying insecure AWS resources into your Cloud environment. You can write your own compliance checks by adding new custom plugins.",
     "tags": [
-        "Security Linter",
-        "CloudFormation",
-        "AWS",
-        "Static Analysis",
-        "Continuous Security",
-        "IaaC"
+        "security-linter",
+        "cloudformation",
+        "aws",
+        "static-analysis",
+        "continuous-security",
+        "iaac"
     ],
     "operating_systems": [
         "linux",
@@ -20,4 +20,4 @@
     ],
     "github_url": "https://github.com/Skyscanner/cfripper",
     "url": "https://cfripper.readthedocs.io"
-}   
+}

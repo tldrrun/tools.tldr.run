@@ -2,10 +2,10 @@
     "name": "AWS Incident Response Kit (AIRK)",
     "description": "AWS Incident Response Kit (AIRK) - AWS Incident Response. The idea of this is to have a module (plugin) based AWS response tool.",
     "tags": [
-        "AWS",
-        "Incident Response",
-        "Cloud Security",
-        "Python"
+        "aws",
+        "incident-response",
+        "cloud-security",
+        "python"
     ],
     "operating_systems": [
         "linux",
@@ -18,4 +18,4 @@
     ],
     "github_url": "https://github.com/prolsen/aws_responder",
     "url": "https://github.com/prolsen/aws_responder"
-}   
+}

@@ -2,11 +2,11 @@
     "name": "Policy Sentry",
     "description": "IAM Least Privilege Policy Generator and analysis database.",
     "tags": [
-        "Cloud Security",
-        "Policy Generator",
-        "AWS",
-        "IAM",
-        "Python"
+        "cloud-security",
+        "policy-generator",
+        "aws",
+        "iam",
+        "python"
     ],
     "operating_systems": [
         "linux",
@@ -17,6 +17,6 @@
     "availability": [
         "opensource"
     ],
-"github_url": "https://github.com/salesforce/policy_sentry",
+    "github_url": "https://github.com/salesforce/policy_sentry",
     "url": "https://github.com/salesforce/policy_sentry"
 }

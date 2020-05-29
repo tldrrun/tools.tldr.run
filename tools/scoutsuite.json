@@ -2,10 +2,10 @@
     "name": "ScoutSuite",
     "description": "Multi-Cloud Security auditing tool for AWS Google Cloud and Azure environments.",
     "tags": [
-        "Cloud Security",
-        "Security Auditing",
-        "Python",
-        "AWS"
+        "cloud-security",
+        "security-auditing",
+        "python",
+        "aws"
     ],
     "operating_systems": [
         "linux",

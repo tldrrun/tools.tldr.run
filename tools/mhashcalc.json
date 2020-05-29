@@ -1,1 +1,19 @@
-{"name":"MHashCalc","description":"MHashCalc is a Hash Calculator for verifying the integrity of any text, folder and file etc. It supports MD5, SHA 1, SHA 2 and SHA 512 hashing algorithms. It also generate the report.","tags":["Hash Calculator","Digital Forensics","Windows"],"operating_systems":["windows"],"license":"Open Source","availability":["opensource","free"],"github_url":"https://github.com/NilayMistry30/MHashCalculator","url":"https://github.com/NilayMistry30/MHashCalculator"}
+{
+    "name": "MHashCalc",
+    "description": "MHashCalc is a Hash Calculator for verifying the integrity of any text, folder and file etc. It supports MD5, SHA 1, SHA 2 and SHA 512 hashing algorithms. It also generate the report.",
+    "tags": [
+        "hash-calculator",
+        "digital-forensics",
+        "windows"
+    ],
+    "operating_systems": [
+        "windows"
+    ],
+    "license": "Open Source",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/NilayMistry30/MHashCalculator",
+    "url": "https://github.com/NilayMistry30/MHashCalculator"
+}

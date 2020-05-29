@@ -2,8 +2,8 @@
     "name": "Android Application Analyzer",
     "description": "Android application analyzer helps pentester to to analyze the content of the android application in local storage.",
     "tags": [
-        "Android",
-        "Vulnerability Assessment"
+        "android",
+        "vulnerability-assessment"
     ],
     "operating_systems": [
         "linux",

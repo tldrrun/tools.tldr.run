@@ -2,11 +2,11 @@
     "name": "KUBESEC.IO",
     "description": "Security risk analysis for Kubernetes resources",
     "tags": [
-        "Container Security",
-        "CIS Benchmarks",
-        "Security Scanning",
-        "Kubernetes Security",
-        "Risk Analysis"
+        "container-security",
+        "cis-benchmarks",
+        "security-scanning",
+        "kubernetes-security",
+        "risk-analysis"
     ],
     "operating_systems": [
         "linux",

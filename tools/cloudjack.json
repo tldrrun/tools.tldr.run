@@ -2,11 +2,11 @@
     "name": "CloudJack",
     "description": "CloudJack assesses AWS accounts for subdomain hijacking vulnerabilities as a result of decoupled Route53 and CloudFront configurations. This vulnerability exists if a Route53 alias references 1) a deleted CloudFront web distribution or 2) an active CloudFront web distribution with deleted CNAME(s).",
     "tags": [
-        "Vulnerability Assessment",
-        "AWS",
-        "Route53",
-        "CloudFront",
-        "Python"
+        "vulnerability-assessment",
+        "aws",
+        "route53",
+        "cloudfront",
+        "python"
     ],
     "operating_systems": [
         "linux",
@@ -17,6 +17,6 @@
     "availability": [
         "opensource"
     ],
-"github_url": "https://github.com/prevade/cloudjack",
+    "github_url": "https://github.com/prevade/cloudjack",
     "url": "https://github.com/prevade/cloudjack"
 }

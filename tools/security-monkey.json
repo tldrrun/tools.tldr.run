@@ -2,12 +2,12 @@
     "name": "Security Monkey",
     "description": "Security Monkey monitors AWS, GCP, OpenStack, and GitHub orgs for assets and their changes over time.",
     "tags": [
-        "Security",
-        "AWS",
-        "Policy Tracking",
-        "Inventory",
+        "security",
+        "aws",
+        "policy-tracking",
+        "inventory",
         "python",
-        "GCP"
+        "gcp"
     ],
     "operating_systems": [
         "linux",

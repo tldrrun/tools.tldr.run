@@ -1,1 +1,23 @@
-{"name":"Security Onion","description":"Security Onion is a free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management. It includes Elasticsearch, Logstash, Kibana, Snort, Suricata, Zeek (formerly known as Bro), Wazuh, Sguil, Squert, CyberChef, NetworkMiner, and many other security tools. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes!","tags":["Security Monitoring","Network Security Monitoring","NSM","SIEM","Log Aggregation"],"operating_systems":["linux","windows","mac"],"license":"Various","availability":["opensource","free"],"github_url":"https://github.com/Security-Onion-Solutions/security-onion","url":"https://securityonion.net/"}
+{
+    "name": "Security Onion",
+    "description": "Security Onion is a free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management. It includes Elasticsearch, Logstash, Kibana, Snort, Suricata, Zeek (formerly known as Bro), Wazuh, Sguil, Squert, CyberChef, NetworkMiner, and many other security tools. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes!",
+    "tags": [
+        "security-monitoring",
+        "network-security-monitoring",
+        "nsm",
+        "siem",
+        "log-aggregation"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Various",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/Security-Onion-Solutions/security-onion",
+    "url": "https://securityonion.net/"
+}

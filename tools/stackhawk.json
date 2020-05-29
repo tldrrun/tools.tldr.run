@@ -1,1 +1,18 @@
-{"name":"StackHawk","description":"StackHawk makes it simple for developers to find, triage, and fix application security bugs. Dynamically scan your application for AppSec bugs, triage and fix with provided documentation, and automate in your pipeline to prevent future bugs from hitting prod.","tags":["AppSec"],"operating_systems":["linux","windows","mac"],"license":"","availability":["commercial"],"github_url":"https://github.com/stackhawk","url":"https://www.stackhawk.com"}
+{
+    "name": "StackHawk",
+    "description": "StackHawk makes it simple for developers to find, triage, and fix application security bugs. Dynamically scan your application for AppSec bugs, triage and fix with provided documentation, and automate in your pipeline to prevent future bugs from hitting prod.",
+    "tags": [
+        "appsec"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "",
+    "availability": [
+        "commercial"
+    ],
+    "github_url": "https://github.com/stackhawk",
+    "url": "https://www.stackhawk.com"
+}

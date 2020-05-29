@@ -2,11 +2,11 @@
     "name": "CloudMapper",
     "description": "CloudMapper helps you analyze your Amazon Web Services (AWS) environments. The original purpose was to generate network diagrams and display them in your browser. It now contains much more functionality, including auditing for security issues.",
     "tags": [
-        "Cloud Security",
-        "Security Audit",
-        "AWS",
-        "Security Analysis",
-        "Python"
+        "cloud-security",
+        "security-audit",
+        "aws",
+        "security-analysis",
+        "python"
     ],
     "operating_systems": [
         "linux",

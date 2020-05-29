@@ -2,11 +2,11 @@
     "name": "Snyk",
     "description": "CLI and SaaS platforms integration to find & fix known vulnerabilities in open-source dependencies, container images and deployment configuration files",
     "tags": [
-        "Dependency Management",
-        "Container Security",
-        "Vulnerability scan",
-        "license scan",
-        "deployment manifests scan"
+        "dependency-management",
+        "container-security",
+        "vulnerability-scan",
+        "license-scan",
+        "deployment-manifests-scan"
     ],
     "operating_systems": [
         "linux",

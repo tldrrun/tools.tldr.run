@@ -2,12 +2,12 @@
     "name": "CFN NAG",
     "description": "Linting tool for CloudFormation templates. The cfn-nag tool looks for patterns in CloudFormation templates that may indicate insecure infrastructure.",
     "tags": [
-        "AWS",
-        "Security Linter",
-        "CloudFormation",
-        "Static Analysis",
-        "Continuous Security",
-        "IaaC"
+        "aws",
+        "security-linter",
+        "cloudformation",
+        "static-analysis",
+        "continuous-security",
+        "iaac"
     ],
     "operating_systems": [
         "linux",
@@ -20,4 +20,4 @@
     ],
     "github_url": "https://github.com/stelligent/cfn_nag",
     "url": "https://github.com/stelligent/cfn_nag"
-}   
+}

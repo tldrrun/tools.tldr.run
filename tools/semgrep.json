@@ -1,1 +1,23 @@
-{"name":"semgrep","description":"semgrep is a tool for easily detecting and preventing bugs and anti-patterns in your codebase. It combines the convenience of grep with the correctness of syntactical and semantic search. Developers, DevOps engineers, and security engineers use semgrep to write code with confidence.","tags":["static-analysis","ocaml","grep-like","semgrep","metavariables"],"operating_systems":["linux","windows","mac"],"license":"LGPL-2.1","availability":["opensource","free"],"github_url":"https://github.com/returntocorp/semgrep","url":"https://semgrep.live"}
+{
+    "name": "semgrep",
+    "description": "semgrep is a tool for easily detecting and preventing bugs and anti-patterns in your codebase. It combines the convenience of grep with the correctness of syntactical and semantic search. Developers, DevOps engineers, and security engineers use semgrep to write code with confidence.",
+    "tags": [
+        "static-analysis",
+        "ocaml",
+        "grep-like",
+        "semgrep",
+        "metavariables"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "LGPL-2.1",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/returntocorp/semgrep",
+    "url": "https://semgrep.live"
+}

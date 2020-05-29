@@ -2,11 +2,11 @@
     "name": "Cloud Security Suite",
     "description": "Cloud Security Suite (cs-suite) - One stop tool for auditing the security posture of AWS/GCP/Azure infrastructure.",
     "tags": [
-        "Cloud Security",
-        "Security Auditing",
-        "AWS",
-        "Azure",
-        "Python"
+        "cloud-security",
+        "security-auditing",
+        "aws",
+        "azure",
+        "python"
     ],
     "operating_systems": [
         "linux",

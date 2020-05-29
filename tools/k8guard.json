@@ -2,10 +2,10 @@
     "name": "K8Guard",
     "description": "K8Guard is an auditing system for kubernetes clusters. It monitors different entities on your cluster for possible violations.",
     "tags": [
-        "Security Auditing",
-        "Security Monitoring",
-        "Kubernetes Security",
-        "Continuous Security"
+        "security-auditing",
+        "security-monitoring",
+        "kubernetes-security",
+        "continuous-security"
     ],
     "operating_systems": [
         "linux"

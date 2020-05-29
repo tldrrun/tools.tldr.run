@@ -2,11 +2,11 @@
     "name": "MadKing",
     "description": "This project was created as a proof of concept. A marriage of serverless frameworks and the techniques of researcher Daniel Grzelak for persistance in an AWS account.",
     "tags": [
-        "Penetration Testing",
-        "Attack Platform",
-        "AWS",
-        "Serverless",
-        "Python"
+        "penetration-testing",
+        "attack-platform",
+        "aws",
+        "serverless",
+        "python"
     ],
     "operating_systems": [
         "linux",

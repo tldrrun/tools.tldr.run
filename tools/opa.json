@@ -2,10 +2,10 @@
     "name": "OPA",
     "description": "The Open Policy Agent (OPA) is an open source, general-purpose policy engine that enables unified, context-aware policy enforcement across the entire stack.",
     "tags": [
-        "Policy Engine",
-        "Cloud Native",
-        "Security Audit",
-        "Security Controls"
+        "policy-engine",
+        "cloud-native",
+        "security-audit",
+        "security-controls"
     ],
     "operating_systems": [
         "linux",

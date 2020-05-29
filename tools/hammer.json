@@ -2,10 +2,10 @@
     "name": "Dow Jones Hammer",
     "description": "Dow Jones Hammer is a multi-account cloud security tool for AWS. It identifies misconfigurations and insecure data exposures within most popular AWS resources, across all regions and accounts. It has near real-time reporting capabilities (e.g. JIRA, Slack) to provide quick feedback to engineers and can perform auto-remediation of some misconfigurations. This helps to protect products deployed on cloud by creating secure guardrails.",
     "tags": [
-        "AWS",
-        "Cloud Security",
-        "DevSecOps",
-        "Config Security"
+        "aws",
+        "cloud-security",
+        "devsecops",
+        "config-security"
     ],
     "operating_systems": [
         "linux",

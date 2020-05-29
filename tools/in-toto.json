@@ -2,10 +2,10 @@
     "name": "in-toto",
     "description": "A software supply chain is the series of steps performed when writing, testing, packaging, and distributing software. A typical software supply chain is composed of multiple steps chained together that transform (e.g., compilation) or verify the state (e.g., linting) of the project in order to drive it to a final product.",
     "tags": [
-        "Supply Chain Security",
-        "Security Automation",
-        "Security Scanning",
-        "Source Code Analysis"
+        "supply-chain-security",
+        "security-automation",
+        "security-scanning",
+        "source-code-analysis"
     ],
     "operating_systems": [
         "linux"

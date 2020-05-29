@@ -2,10 +2,10 @@
     "name": "Notary",
     "description": "Notary aims to make the internet more secure by making it easy for people to publish and verify content. We often rely on TLS to secure our communications with a web server, which is inherently flawed, as any compromise of the server enables malicious content to be substituted for the legitimate content.",
     "tags": [
-        "Container Security",
-        "Image Signing",
-        "Security Audit",
-        "Trust & Privacy"
+        "container-security",
+        "image-signing",
+        "security-audit",
+        "trust-&-privacy"
     ],
     "operating_systems": [
         "linux",

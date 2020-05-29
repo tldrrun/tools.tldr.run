@@ -2,12 +2,12 @@
     "name": "Bucket Stream",
     "description": "Find interesting Amazon S3 Buckets by watching certificate transparency logs. This tool simply listens to various certificate transparency logs (via certstream) and attempts to find public S3 buckets from permutations of the certificates domain name.",
     "tags": [
-        "S3",
-        "Security Scanning",
-        "Cloud Security",
-        "Security Auditing",
-        "Security Testing",
-        "Transparency Logs"
+        "s3",
+        "security-scanning",
+        "cloud-security",
+        "security-auditing",
+        "security-testing",
+        "transparency-logs"
     ],
     "operating_systems": [
         "linux",

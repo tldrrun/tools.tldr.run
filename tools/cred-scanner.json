@@ -2,10 +2,10 @@
     "name": "cred_scanner",
     "description": "A simple command line tool for finding AWS credentials in files. Optimized for use with Jenkins and other CI systems.",
     "tags": [
-        "AWS Secrets",
-        "Security Automation",
-        "Security Scanning",
-        "Python"
+        "aws-secrets",
+        "security-automation",
+        "security-scanning",
+        "python"
     ],
     "operating_systems": [
         "linux",
@@ -16,6 +16,6 @@
     "availability": [
         "opensource"
     ],
-"github_url": "https://github.com/disruptops/cred_scanner",
+    "github_url": "https://github.com/disruptops/cred_scanner",
     "url": "https://github.com/disruptops/cred_scanner"
 }

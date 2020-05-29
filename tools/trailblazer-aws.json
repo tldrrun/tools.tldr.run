@@ -2,10 +2,10 @@
     "name": "AWS TrailBlazer",
     "description": "TrailBlazer is a tool written to determine what AWS API calls are logged by CloudTrail and what they are logged as. You can also use TrailBlazer as an attack simulation framework.",
     "tags": [
-        "Cloud Security",
-        "AWS",
-        "Monitoring & Logging",
-        "Python"
+        "cloud-security",
+        "aws",
+        "monitoring-&-logging",
+        "python"
     ],
     "operating_systems": [
         "linux",

@@ -2,11 +2,11 @@
     "name": "kube-hunter",
     "description": "kube-hunter hunts for security weaknesses in Kubernetes clusters. The tool was developed to increase awareness and visibility for security issues in Kubernetes environments. You should NOT run kube-hunter on a Kubernetes cluster that you don't own!",
     "tags": [
-        "Container Security",
-        "CIS Benchmarks",
-        "Security Scanning",
-        "Kubernetes Security",
-        "Penetration Testing"
+        "container-security",
+        "cis-benchmarks",
+        "security-scanning",
+        "kubernetes-security",
+        "penetration-testing"
     ],
     "operating_systems": [
         "linux"

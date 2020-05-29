@@ -2,11 +2,11 @@
     "name": "terraform-aws-secure-baseline",
     "description": "Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.",
     "tags": [
-        "Cloud Security",
-        "Security Baseline",
-        "AWS",
-        "CIS",
-        "Terraform"
+        "cloud-security",
+        "security-baseline",
+        "aws",
+        "cis",
+        "terraform"
     ],
     "operating_systems": [
         "linux",

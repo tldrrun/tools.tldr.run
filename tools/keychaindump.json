@@ -1,1 +1,20 @@
-{"name":"keychaindump","description":"Keychaindump is a proof-of-concept tool for reading OS X keychain passwords as root. It hunts for unlocked keychain master keys located in the memory space of the securityd process, and uses them to decrypt keychain files.","tags":["keychain","mac","osx","security"],"operating_systems":["mac"],"license":"","availability":["opensource","free"],"github_url":"https://github.com/juuso/keychaindump","url":"https://github.com/juuso/keychaindump"}
+{
+    "name": "keychaindump",
+    "description": "Keychaindump is a proof-of-concept tool for reading OS X keychain passwords as root. It hunts for unlocked keychain master keys located in the memory space of the securityd process, and uses them to decrypt keychain files.",
+    "tags": [
+        "keychain",
+        "mac",
+        "osx",
+        "security"
+    ],
+    "operating_systems": [
+        "mac"
+    ],
+    "license": "",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/juuso/keychaindump",
+    "url": "https://github.com/juuso/keychaindump"
+}

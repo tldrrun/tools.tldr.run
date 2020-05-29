@@ -2,15 +2,17 @@
     "name": "ReconSpider",
     "description": "🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.",
     "tags": [
-        "Recon",
-        "Spider",
-        "Reconnaissance",
+        "recon",
+        "spider",
+        "reconnaissance",
         "crawler",
         "osint",
         "security"
     ],
     "operating_systems": [
-        "linux", "windows", "mac"
+        "linux",
+        "windows",
+        "mac"
     ],
     "license": "GPL-3.0",
     "availability": [

@@ -2,11 +2,11 @@
     "name": "SkyArk",
     "description": "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities in Azure and AWS.",
     "tags": [
-        "Cloud Security",
-        "AWS",
-        "Azure",
-        "Security Scanning",
-        "PowerShell"
+        "cloud-security",
+        "aws",
+        "azure",
+        "security-scanning",
+        "powershell"
     ],
     "operating_systems": [
         "windows"

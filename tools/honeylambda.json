@@ -2,12 +2,12 @@
     "name": "honeyLambda",
     "description": "honeyλ - a simple, serverless application designed to create and monitor fake HTTP endpoints (i.e. URL honeytokens) automatically, on top of AWS Lambda and Amazon API Gateway",
     "tags": [
-        "Lambda",
-        "Security Detection",
-        "Cloud Security",
-        "Canary Token",
-        "Honeypot",
-        "AWS"
+        "lambda",
+        "security-detection",
+        "cloud-security",
+        "canary-token",
+        "honeypot",
+        "aws"
     ],
     "operating_systems": [
         "linux",

@@ -2,13 +2,13 @@
     "name": "Terraform Compliance",
     "description": "A lightweight, security focused, BDD test framework against terraform. terraform-compliance is a lightweight, security and compliance focused test framework against terraform to enable negative testing capability for your infrastructure-as-code.",
     "tags": [
-        "Cloud Security",
-        "Security Linter",
-        "Terraform",
-        "Static Analysis",
-        "Continuous Security",
-        "Compliance",
-        "IaaC"
+        "cloud-security",
+        "security-linter",
+        "terraform",
+        "static-analysis",
+        "continuous-security",
+        "compliance",
+        "iaac"
     ],
     "operating_systems": [
         "linux",
@@ -21,4 +21,4 @@
     ],
     "github_url": "https://github.com/eerkunt/terraform-compliance",
     "url": "https://terraform-compliance.com/"
-}   
+}

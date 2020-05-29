@@ -2,7 +2,7 @@
     "name": "gotit",
     "description": "Returns the html TITLE for a list of URLs. Very useful for recon / domain flyovers.",
     "tags": [
-        "BugBounty"
+        "bugbounty"
     ],
     "operating_systems": [
         "linux",

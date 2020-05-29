@@ -1,1 +1,29 @@
-{"name":"OWASP Juice Shop","description":"OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!","tags":["Teaching","Learning","Educational","OWASP","Web Security","Node.js","Angular","JavaScript","Vulnerable","VulnApp","CTF"],"operating_systems":["linux","windows","mac"],"license":"MIT","availability":["opensource","free"],"github_url":"https://github.com/bkimminich/juice-shop","url":"https://github.com/bkimminich/juice-shop"}
+{
+    "name": "OWASP Juice Shop",
+    "description": "OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!",
+    "tags": [
+        "teaching",
+        "learning",
+        "educational",
+        "owasp",
+        "web-security",
+        "node.js",
+        "angular",
+        "javascript",
+        "vulnerable",
+        "vulnapp",
+        "ctf"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/bkimminich/juice-shop",
+    "url": "https://github.com/bkimminich/juice-shop"
+}

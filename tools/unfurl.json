@@ -2,12 +2,12 @@
     "name": "Unfurl",
     "description": "Unfurl takes a URL and expands (“unfurls”) it into a directed graph, extracting every bit of information from the URL and exposing the obscured. It does this by breaking up a URL into components, extracting as much information as it can from each piece, and presenting it all visually. This “show your work” approach (along with embedded references and documentation) makes the analysis transparent to the user and helps them learn about (and discover) semantic and syntactical URL structures. Unfurl has parsers for URLs from popular search engines, social media sites, mail services, and chat applications. It also has more generic parsers (timestamps, UUIDs, base64, and more) helpful for exploring new URLs or reverse engineering. It’s also easy to build new parsers, since Unfurl is open source (Python 3) and has an extensible plugin system. No matter if you extracted a URL from a memory image, carved it from slack space, or pulled it from a browser’s history file, Unfurl can help you get the most out of it.",
     "tags": [
-        "Python",
-        "Visualization",
-        "URL",
-        "DFIR",
-        "Reverse Engineering",
-        "AppSec"
+        "python",
+        "visualization",
+        "url",
+        "dfir",
+        "reverse-engineering",
+        "appsec"
     ],
     "operating_systems": [
         "linux",
@@ -15,7 +15,9 @@
         "mac"
     ],
     "license": "Apache 2",
-    "availability": ["opensource"],
+    "availability": [
+        "opensource"
+    ],
     "github_url": "https://github.com/obsidianforensics/unfurl",
     "url": "https://dfir.blog/unfurl/"
 }

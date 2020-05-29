@@ -2,12 +2,12 @@
     "name": "s3-buckets-bruteforcer",
     "description": "Find aws s3 buckets and extract datas. PHP tool to brute force Amazon S3 bucket. Note that this is an automated tool, manual check is still required.",
     "tags": [
-        "S3",
-        "Security Scanning",
-        "Cloud Security",
-        "Security Auditing",
-        "Security Testing",
-        "AWS"
+        "s3",
+        "security-scanning",
+        "cloud-security",
+        "security-auditing",
+        "security-testing",
+        "aws"
     ],
     "operating_systems": [
         "linux",

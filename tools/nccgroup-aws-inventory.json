@@ -2,10 +2,10 @@
     "name": "nccgroup-aws-inventory",
     "description": "This is a tool that tries to discover all AWS resources created in an account.",
     "tags": [
-        "Cloud Security",
-        "AWS",
-        "Inventory",
-        "Python"
+        "cloud-security",
+        "aws",
+        "inventory",
+        "python"
     ],
     "operating_systems": [
         "linux",

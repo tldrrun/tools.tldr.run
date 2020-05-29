@@ -2,13 +2,13 @@
     "name": "GDPatrol",
     "description": "A Serverless Security Orchestration Automation and Response (SOAR) Framework for AWS GuardDuty. The GDPatrol Lambda function receives the GuardDuty findings through the CloudWatch Event Rule and executes the appropriate actions to mitigate the threats according to their types and severity. The deployment script will enable GuardDuty and deploy the GDPatrol Lambda function in all supported regions.",
     "tags": [
-        "AWS",
-        "DFIR",
-        "Incident Response",
-        "Serverless",
-        "Cloud Security",
-        "SOAR",
-        "GaurdDuty"
+        "aws",
+        "dfir",
+        "incident-response",
+        "serverless",
+        "cloud-security",
+        "soar",
+        "gaurdduty"
     ],
     "operating_systems": [
         "linux",
@@ -21,4 +21,4 @@
     ],
     "github_url": "https://github.com/ansorren/GDPatrol",
     "url": "https://github.com/ansorren/GDPatrol"
-}   
+}

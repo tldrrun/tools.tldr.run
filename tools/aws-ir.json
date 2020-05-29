@@ -2,11 +2,11 @@
     "name": "AWS IR",
     "description": "Python installable command line utility for mitigation of instance and key compromises.",
     "tags": [
-        "AWS",
-        "Incident Response",
-        "Security Monitoring",
-        "Python",
-        "Cloud Security"
+        "aws",
+        "incident-response",
+        "security-monitoring",
+        "python",
+        "cloud-security"
     ],
     "operating_systems": [
         "linux",
@@ -19,4 +19,4 @@
     ],
     "github_url": "https://github.com/ThreatResponse/aws_ir",
     "url": "https://github.com/ThreatResponse/aws_ir"
-}   
+}
