@@ -1,18 +1,16 @@
 <template>
-  <div class="app">
-    <ToolsList :toolsData="toolsData" />
-  </div>
+  <Home :toolsData="toolsData" />
 </template>
 
 <script>
 // @ is an alias to /src
-import ToolsList from "@/components/ToolsList.vue";
+import Home from "@/pages/Home.vue";
 
 export default {
   name: "App",
   components: {
-    ToolsList
+    Home,
   },
-  props: ["toolsData"]
+  props: ["toolsData"],
 };
 </script>
