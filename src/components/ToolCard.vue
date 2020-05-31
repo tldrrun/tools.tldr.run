@@ -116,7 +116,7 @@ export default {
   display: flex;
   flex-direction: column;
 }
-.card div {
+.card div.card-content {
   flex: 1;
 }
 .card .card-footer {
