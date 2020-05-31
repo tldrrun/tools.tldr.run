@@ -2,11 +2,11 @@
     "name": "TrashEmail",
     "description": "Trashemail is privacy oriented, reliable, throwaway email service that helps you avoid spam to your personal mail-id. Free from any advertisement & get emails delivered to your @trashemail_bot Telegram bot.",
     "tags": [
-        "Telegram",
-        "Dispoable emails",
+        "telegram",
+        "dispoable-emails",
         "automation",
         "java",
-	"Spring-boot",
+	"spring-boot",
 	"privacy"
     ],
     "operating_systems": [
