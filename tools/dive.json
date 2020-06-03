@@ -1,0 +1,23 @@
+{
+    "name": "Dive",
+    "description": "A tool for exploring a docker image, layer contents, and reverse engineering the docker image - layer by layer.",
+    "tags": [
+        "containers",
+        "devops",
+        "automation",
+        "security",
+        "reverse-engineering"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "Windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/wagoodman/dive",
+    "url": "https://github.com/wagoodman/dive"
+}
