@@ -5,8 +5,8 @@
         "containers",
         "devops",
         "automation",
-        "Security",
-        "Reverse engineering"
+        "security",
+        "reverse-engineering"
     ],
     "operating_systems": [
         "linux",
