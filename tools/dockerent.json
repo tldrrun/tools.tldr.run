@@ -1,0 +1,27 @@
+{
+    "name": "DockerENT",
+    "description": "DockerENT is activE ruNtime application security scanning Tool (RAST tool) and framework which is pluggable and written in python.",
+    "tags": [
+        "containers",
+        "devops",
+        "automation",
+        "python",
+        "scanner",
+        "RAST",
+        "docker",
+        "security"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource",
+        "free",
+        "commercial"
+    ],
+    "github_url": "https://github.com/r0hi7/DockerENT",
+    "url": "https://www.kitploit.com/2020/09/dockerent-only-open-source-tool-to.html"
+}
