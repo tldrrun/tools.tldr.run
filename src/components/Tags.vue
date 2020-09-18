@@ -2,7 +2,7 @@
   <div>
     <h4 class="is-center-text is-bold is-dark">
       <span>Tags List</span>
-      <span class="closeTags" v-on:click="closeSidebar">X</span>
+      <span class="closeTags" v-on:click="closeSidebar()">X</span>
     </h4>
     <div>
       <div
@@ -44,13 +44,13 @@ export default {
   props: ["tagsList", "selectedTags"],
   methods: {
     selectTag(tagName) {
-      this.$emit("selectTag", tagName);
+      this.$emit("select-tag", tagName);
     },
     clearSelection() {
-      this.$emit("clearTagSelection");
+      this.$emit("clear-tag-selection");
     },
     closeSidebar() {
-      this.$emit("closeSidebar");
+      this.$emit("close-sidebar");
     },
   },
   data() {
