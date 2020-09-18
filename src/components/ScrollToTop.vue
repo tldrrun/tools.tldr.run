@@ -16,7 +16,7 @@ export default {
   created() {
     window.addEventListener("scroll", this.handleScroll);
   },
-  destroyed() {
+  unmounted() {
     window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {

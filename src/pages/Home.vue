@@ -93,9 +93,9 @@
       <Tags
         :tagsList="tags"
         :selectedTags="selectedTags"
-        v-on:selectTag="selectTag"
-        v-on:clearTagSelection="clearTagSelection"
-        v-on:closeSidebar="closeSidebar"
+        v-on:select-tag="selectTag"
+        v-on:clear-tag-selection="clearTagSelection"
+        v-on:close-sidebar="closeSidebar"
         class="tabsList"
         :class="{ open: showSidebar }"
       />
@@ -220,7 +220,7 @@ export default {
       distance: 10000,
     });
   },
-  destroyed() {
+  unmounted() {
     window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {

@@ -17,28 +17,5 @@
       stroke-linejoin="round"
       stroke-miterlimit="10"
     />
-    <metadata>
-      <rdf:RDF
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-      >
-        <rdf:Description
-          about="https://iconscout.com/legal#licenses"
-          dc:title="open,source,logo,line,e"
-          dc:description="open,source,logo,line,e"
-          dc:publisher="Iconscout"
-          dc:date="2018-02-23"
-          dc:format="image/svg+xml"
-          dc:language="en"
-        >
-          <dc:creator>
-            <rdf:Bag>
-              <rdf:li>Pixel Icons</rdf:li>
-            </rdf:Bag>
-          </dc:creator>
-        </rdf:Description>
-      </rdf:RDF>
-    </metadata>
   </svg>
 </template>
