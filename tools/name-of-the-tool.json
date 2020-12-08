@@ -1,0 +1,16 @@
+{
+    "name": "Name of the tool",
+    "description": "Description",
+    "tags": [
+        "tags"
+    ],
+    "operating_systems": [
+        "operating-systems"
+    ],
+    "license": "License",
+    "availability": [
+        "availability"
+    ],
+    "github_url": "Github URL",
+    "url": "URL"
+}

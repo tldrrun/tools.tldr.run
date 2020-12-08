@@ -1,0 +1,20 @@
+{
+    "name": "NTLMv1 Multi Tool",
+    "description": "Tool to assist in reversing NTLMv1 to NTLM for silver ticket creation",
+    "tags": [
+        "hash-cracking",
+        "password-cracking",
+        "hashcat"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/evilmog/ntlmv1-multi",
+    "url": "https://github.com/evilmog/ntlmv1-multi"
+}

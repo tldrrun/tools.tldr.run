@@ -1,0 +1,23 @@
+{
+    "name": "OWASP ZAP ( Zed Attack Proxy )",
+    "description": "The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers. It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications. It's also a great tool for experienced pentesters to use for manual security testing.",
+    "tags": [
+        "proxy",
+        "application-security",
+        "web-security",
+        "web",
+        "penetration-testing"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache 2",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/zaproxy/zaproxy",
+    "url": "https://www.zaproxy.org/"
+}

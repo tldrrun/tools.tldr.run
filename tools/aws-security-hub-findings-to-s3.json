@@ -1,0 +1,21 @@
+{
+    "name": "aws-security-hub-findings-to-s3",
+    "description": "Security Hub Findings pushed to Multi-Region Bucket for ingestion with something like Azure Sentinel / SIEM",
+    "tags": [
+        "cloud",
+        "aws",
+        "security-hub",
+        "siem"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/rupertbg/aws-security-hub-findings-to-s3",
+    "url": "https://github.com/rupertbg/aws-security-hub-findings-to-s3"
+}

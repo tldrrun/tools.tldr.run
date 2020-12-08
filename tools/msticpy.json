@@ -1,0 +1,21 @@
+{
+    "name": "msticpy",
+    "description": "msticpy is a collection of data acquisition, analysis and visualization for CyberSec investigators and hunters.",
+    "tags": [
+        "infosec",
+        "soc",
+        "security-investigation",
+        "hunting"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/microsoft/msticpy",
+    "url": "https://msticpy.readthedocs.io/"
+}

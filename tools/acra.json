@@ -1,0 +1,32 @@
+{
+    "name": "Acra",
+    "description": "Acra – database security suite with protection for sensitive and personal data. Includes 9 data security tools in one package: selective encryption, data tokenization, data masking, SQL firewall, access control, leakage prevention, intrusion detection, honeypots, audit logs. Designed to use as data protection measure in any apps that use SQL/KV backend. Has free version and commercial version.",
+    "tags": [
+        "data-security",
+        "database-security",
+        "sql",
+        "sql-security",
+        "cryptography",
+        "firewall",
+        "sql-firewall",
+        "data-tokenization",
+        "data-masking",
+        "encryption",
+        "blue-team",
+        "honeypot",
+        "canary-token",
+        "end-to-end-encryption"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac"
+    ],
+    "license": "Apache-2.0",
+    "availability": [
+        "opensource",
+        "free",
+        "commercial"
+    ],
+    "github_url": "https://github.com/cossacklabs/acra",
+    "url": "https://www.cossacklabs.com/acra/"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Panther",
+    "description": "Panther is a serverless, security data analytics platform built for cloud-first organizations",
+    "tags": [
+        "log-analysis",
+        "siem",
+        "cloud-security",
+        "data-lake",
+        "real-time-detection",
+        "aws"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "AGPLv3",
+    "availability": [
+        "opensource",
+        "free",
+        "commercial"
+    ],
+    "github_url": "https://github.com/panther-labs/panther",
+    "url": "https://runpanther.io"
+}

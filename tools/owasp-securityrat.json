@@ -1,0 +1,19 @@
+{
+    "name": "OWASP SecurityRAT",
+    "description": "Tool supposed to assist \u0026 automate with the problem of addressing security requirements during application development. ASVS 3 supported",
+    "tags": [
+        "security-requirements"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "Apache 2.0 license",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/SecurityRAT/SecurityRAT",
+    "url": "https://securityrat.github.io/"
+}

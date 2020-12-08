@@ -1,0 +1,21 @@
+{
+    "name": "aws-wireguard-linux",
+    "description": "WireGuard VPN on AWS",
+    "tags": [
+        "vpn",
+        "wireguard",
+        "aws",
+        "networking"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/rupertbg/aws-wireguard-linux",
+    "url": "https://github.com/rupertbg/aws-wireguard-linux"
+}

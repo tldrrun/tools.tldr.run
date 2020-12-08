@@ -1,0 +1,26 @@
+{
+    "name": "GuardRails",
+    "description": "GuardRails is a continuous application security verification platform that deeply integrates into source code versioning systems like GitHub, GitLab and BitBucket. The platform performs static analysis of the source code to detect potential vulnerabilities in all modern programming languages, as well as analysing open source dependencies for known vulnerabilities, identifying sensitive information such as API keys and passwords, and security flaws in cloud configuration.",
+    "tags": [
+        "static-analysis",
+        "dependency-scanning",
+        "secret-scanning",
+        "cloud-security",
+        "devsecops",
+        "deployment-manifests-scan",
+        "automation",
+        "security-scanning"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "",
+    "availability": [
+        "free",
+        "commercial"
+    ],
+    "github_url": "",
+    "url": "https://www.guardrails.io"
+}

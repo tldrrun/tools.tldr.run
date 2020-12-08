@@ -1,0 +1,22 @@
+{
+    "name": "CfnGoat",
+    "description": "Cfngoat is Bridgecrew's \"Vulnerable by Design\" CDK repository. Cfngoat is a learning and training project that demonstrates how common configuration errors can find their way into production cloud environments.",
+    "tags": [
+        "cloudformation",
+        "aws-security",
+        "cloud-security",
+        "goat",
+        "vulnerable-apps"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "APACHE-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/bridgecrewio/cfngoat",
+    "url": "https://github.com/bridgecrewio/cfngoat"
+}

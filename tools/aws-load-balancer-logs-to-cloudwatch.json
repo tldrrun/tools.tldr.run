@@ -1,0 +1,25 @@
+{
+    "name": "aws-load-balancer-logs-to-cloudwatch",
+    "description": "Parses ELB logs into JSON and pushes them into CloudWatch Logs",
+    "tags": [
+        "logs",
+        "monitoring",
+        "elb",
+        "alb",
+        "nlb",
+        "load-balancing",
+        "cloudwatch",
+        "aws"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "ASL",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/rupertbg/aws-load-balancer-logs-to-cloudwatch",
+    "url": "https://github.com/rupertbg/aws-load-balancer-logs-to-cloudwatch"
+}
