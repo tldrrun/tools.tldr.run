@@ -1,0 +1,22 @@
+{
+    "name": "ConsoleMe",
+    "description": "ConsoleMe consolidates the management of multiple AWS accounts into a single interface. It allows your end-users and administrators to get credentials for your different accounts, and allows your users/administrators to manage or request cloud permissions.",
+    "tags": [
+        "cloud-security",
+        "AWS",
+        "least-privilege",
+	"RBAC",
+        "IAM"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+	"windows"
+    ],
+    "license": "Apache-2",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/Netflix/consoleme",
+    "url": "https://github.com/Netflix/consoleme"
+}
