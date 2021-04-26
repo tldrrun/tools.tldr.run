@@ -1,0 +1,31 @@
+{
+    "name": "kubesploit",
+    "description": "Kubesploit is a cross-platform post-exploitation HTTP/2 Command & Control server and agent written in Golang, focused on containerized environments.",
+    "tags": [
+        "kubernetes",
+        "agent", 
+        "golang", 
+        "security",
+        "containers",
+        "http2",
+        "post-exploitation",
+        "security-tools",
+        "c2",
+        "penetration-testing-framework",
+        "command-and-control",
+        "red-teams",
+        "penetration-testing-tools",
+        "redteam-tools"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "GPL-3",
+    "availability": [
+        "opensource"
+    ],
+    "github_url": "https://github.com/cyberark/kubesploit",
+    "url": "https://github.com/cyberark/kubesploit"
+}
