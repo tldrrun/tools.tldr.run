@@ -1,0 +1,27 @@
+{
+    "name": "pakkero",
+    "description": "Pakkero is a binary packer written in Go made for fun and educational purpose. Its main goal is to take in input a program file (elf binary, script, even appimage) and compress it, protect it from tampering and intrusion. ",
+    "tags": [
+        "golang",
+        "compression",
+        "encryption",
+        "packer",
+        "launcher",
+        "upx",
+        "elf",
+        "payload",
+        "protector",
+        "elf-binaries"
+    ],
+    "operating_systems": [
+        "linux"
+    ],
+    "license": "GPLv3",
+    "availability": [
+        "opensource",
+        "free",
+        "commercial"
+    ],
+    "github_url": "https://github.com/89luca89/pakkero",
+    "url": "https://github.com/89luca89/pakkero"
+}

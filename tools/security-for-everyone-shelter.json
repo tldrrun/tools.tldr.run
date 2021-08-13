@@ -1,0 +1,22 @@
+{
+    "name": "Security For Everyone - Shelter",
+    "description": "S4E:Shelter detects the tech stack of your assets and their security vulnerabilities using machine learning, and offers actionable solutions to you. Your security is up to date.",
+    "tags": [
+        "security",
+        "web-app-security",
+        "free-tools",
+        "security-checks"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "",
+    "availability": [
+        "free",
+        "commercial"
+    ],
+    "github_url": "https://github.com/s4e-labs/",
+    "url": "https://securityforeveryone.com"
+}

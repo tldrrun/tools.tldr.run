@@ -1,0 +1,22 @@
+{
+    "name": "onaws",
+    "description": "Fetch the details of assets hosted on AWS.",
+    "tags": [
+        "aws",
+        "devops",
+        "bug-bounty",
+        "reconnaissance"
+    ],
+    "operating_systems": [
+        "linux",
+        "windows",
+        "mac"
+    ],
+    "license": "MIT",
+    "availability": [
+        "opensource",
+        "free"
+    ],
+    "github_url": "https://github.com/amalmurali47/onaws",
+    "url": "https://github.com/amalmurali47/onaws"
+}
