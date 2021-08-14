@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-         apt-get update && apt-get -y install jq git
+         sudo apt-get update && sudo apt-get -y install jq git
 #         git clone https://github.com/tldrrun/tools.tldr.run
 #         cd tools.tldr.run/tools
 #         cat *.json | jq '.name'
