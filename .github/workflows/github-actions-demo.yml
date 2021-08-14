@@ -6,9 +6,9 @@ jobs:
     steps:
       - run: |
          apt-get update && apt-get -y install jq git
-         git clone https://github.com/tldrrun/tools.tldr.run
-         cd tools.tldr.run/tools
-         cat *.json | jq '.name'
+#         git clone https://github.com/tldrrun/tools.tldr.run
+#         cd tools.tldr.run/tools
+#         cat *.json | jq '.name'
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
@@ -17,7 +17,7 @@ jobs:
           git clone https://github.com/${{ github.repository }} -b `echo ${{ github.ref }} | cut -d'/' -f3`
           cd tools.tldr.run
           git checkout main && git fetch
-          git diff --name-status main..`echo ${{ github.ref }} | cut -d'/' -f3`
+          git diff --name-status main..`echo ${{ github.ref }} | cut -d'/' -f3`         
 #      - name: Check out repository code
 #        uses: actions/checkout@v2
 #      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
