@@ -1,0 +1,24 @@
+{
+    "name": "vaf",
+    "description": "vaf is a very advanced web fuzzer that works on Windows, Linux and MacOS with a lot of features, it's also written in Nim and compiled to C.",
+    "tags": [
+        "web",
+        "reconnaissance",
+        "web-security",
+        "fuzzer",
+        "bug-bounty"
+    ],
+    "operating_systems": [
+        "linux",
+        "mac",
+        "windows"
+    ],
+    "license": "GPL-3.0",
+    "availability": [
+        "opensource",
+        "free",
+        "commercial"
+    ],
+    "github_url": "https://github.com/docker/docker-ce",
+    "url": "https://github.com/docker/docker-ce"
+}
