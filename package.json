@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "classnames": "^2.3.1",
-    "next": "12.0.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "^13.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "swr": "^1.2.1"
   },
   "devDependencies": {
@@ -21,7 +21,7 @@
     "@types/react": "^17.0.39",
     "autoprefixer": "^10.4.2",
     "eslint": "8.8.0",
-    "eslint-config-next": "12.0.10",
+    "eslint-config-next": "^13.1.0",
     "postcss": "^8.4.6",
     "prettier-plugin-tailwindcss": "^0.1.5",
     "tailwindcss": "^3.0.18",

@@ -44,14 +44,14 @@ export default function ToolCard({
           {license || "No license specified"}
         </a>
       </p>
-      <Link href={`/tool/${id}`}>
-        <a
-          aria-label="Tool"
-          title={name}
-          className="px-8 inline-block mb-3 text-2xl font-bold leading-7 text-black transition-colors duration-200"
-        >
-          {name}
-        </a>
+      <Link
+        href={`/tool/${id}`}
+        aria-label="Tool"
+        title={name}
+        className="px-8 inline-block mb-3 text-2xl font-bold leading-7 text-black transition-colors duration-200">
+
+        {name}
+
       </Link>
       <p className="px-8 mb-4 text-slate-500 line-clamp-3 md:line-clamp-5 flex-1">
         {description}
@@ -64,23 +64,23 @@ export default function ToolCard({
           }
         )}
       >
-        <Link href={`/tool/${id}`}>
-          <a
-            aria-label={name}
-            title={`${name} tool page`}
-            className="p-3 hover:bg-slate-100"
-          >
+        <Link
+          href={`/tool/${id}`}
+          aria-label={name}
+          title={`${name} tool page`}
+          className="p-3 hover:bg-slate-100">
+          
             View
-          </a>
+          
         </Link>
-        <Link href="/">
-          <a
-            aria-label={name}
-            title={`${name} tool page`}
-            className="p-3 hover:bg-slate-100"
-          >
+        <Link
+          href="/"
+          aria-label={name}
+          title={`${name} tool page`}
+          className="p-3 hover:bg-slate-100">
+          
             Run →
-          </a>
+          
         </Link>
       </div>
     </div>
