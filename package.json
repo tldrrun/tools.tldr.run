@@ -10,7 +10,7 @@
     "preserve": "cat tools/*.json | jq -c -s 'flatten' > public/assets/main.json"
   },
   "dependencies": {
-    "axios": "^0.21.2",
+    "axios": "^1.6.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "fuse.js": "^6.0.0",
