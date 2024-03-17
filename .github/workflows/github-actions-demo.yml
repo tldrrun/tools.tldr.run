@@ -13,9 +13,15 @@ jobs:
         run: |
           git clone https://github.com/${{ github.repository }} -b `echo ${{ github.ref }} | cut -d'/' -f3`
           cd tools.tldr.run/tools
-          echo "Total entries = " $(cat *.json | jq '.name' | sort | wc -l)
-          echo "Unique entries = " $(cat *.json | jq '.name' | sort | uniq -i | wc -l)
-          if [ $(cat *.json | jq '.name' | sort | uniq -i | wc -l) -ne $(cat *.json | jq '.name' | sort | wc -l) ]; echo "Duplicate entries list"; cat *.json | jq '.name' | sort  | uniq -i -c -d; then exit 1; fi
+          UNIQUE_ENTRIES=($(cat *.json | jq '.name' | sort | uniq -i | wc -l))
+          TOTAL_ENTRIES=($(cat *.json | jq '.name' | sort | wc -l))
+          echo "Total entries = " "$TOTAL_ENTRIES"
+          echo "Unique entries = " "$UNIQUE_ENTRIES"
+          if [ "$UNIQUE_ENTRIES" -ne "$TOTAL_ENTRIES" ]; then 
+            echo "Duplicate entries list"; cat *.json | jq '.name' | sort | uniq -i -c -d; exit 1;
+          else
+            echo "No Duplicate Entries";
+          fi
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
