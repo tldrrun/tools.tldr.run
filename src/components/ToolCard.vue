@@ -71,12 +71,12 @@
 
 <script>
 // Icons
-import CoffeeCup from "../icons/coffee-cup";
-import Dollar from "../icons/dollar-icon";
-import Linux from "../icons/linux-logo";
-import Mac from "../icons/mac-logo";
-import OpenSource from "../icons/open-source";
-import Windows from "../icons/windows-logo";
+import CoffeeCup from "../icons/coffee-cup.vue";
+import Dollar from "../icons/dollar-icon.vue";
+import Linux from "../icons/linux-logo.vue";
+import Mac from "../icons/mac-logo.vue";
+import OpenSource from "../icons/open-source.vue";
+import Windows from "../icons/windows-logo.vue";
 
 export default {
   props: ["filteredList"],
